@@ -1,0 +1,82 @@
+<svg width="680" height="720" viewBox="0 0 680 720" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>S1-Scout: Reconnaissance for Revenue — Agent Pipeline Architecture</title>
+<desc>Five-stage sequential CrewAI pipeline: Stage 0 handbook RAG, Stage 1 market research, Stage 2 company research, Stage 3 prioritization, Stage 4 solution mapping, Stage 5 report generation.</desc>
+
+<style>
+  rect.bg { fill: transparent; }
+  .s0 { fill: #E1F5EE; stroke: #0F6E56; }
+  .s1 { fill: #EEEDFE; stroke: #534AB7; }
+  .s2 { fill: #E6F1FB; stroke: #185FA5; }
+  .s3 { fill: #FAEEDA; stroke: #854F0B; }
+  .s4 { fill: #FAECE7; stroke: #993C1D; }
+  .s5 { fill: #F1EFE8; stroke: #5F5E5A; }
+  .th { font-family: sans-serif; font-size: 14px; font-weight: 600; fill: #2C2C2A; }
+  .ts { font-family: sans-serif; font-size: 12px; font-weight: 400; fill: #5F5E5A; }
+  .arr { stroke: #888780; stroke-width: 1.5; fill: none; }
+  .leg { font-family: sans-serif; font-size: 11px; fill: #5F5E5A; }
+</style>
+
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+
+<!-- Stage 0 -->
+<rect x="40" y="30" width="600" height="72" rx="10" stroke-width="0.5" class="s0"/>
+<text class="th" x="340" y="62" text-anchor="middle">Stage 0 — knowledge layer</text>
+<text class="ts" x="340" y="82" text-anchor="middle">Handbook PDF → pypdf → 49 chunks → ChromaDB (in-memory) → handbook_search tool</text>
+
+<line x1="340" y1="102" x2="340" y2="128" class="arr" marker-end="url(#arrow)"/>
+
+<!-- Stage 1 -->
+<rect x="40" y="130" width="600" height="108" rx="10" stroke-width="0.5" class="s1"/>
+<text class="th" x="340" y="155" text-anchor="middle">Stage 1 — market research agent</text>
+<text class="ts" x="340" y="174" text-anchor="middle">7 Serper pre-fetches (SIAM · IBEF · ACMA · EV · warranty · supply chain · dealer)</text>
+<text class="ts" x="340" y="192" text-anchor="middle">Groq synthesis → industry report (markdown)</text>
+<text class="ts" x="340" y="210" text-anchor="middle">52-company universe → ICP filter → 28-company long-list + pain signals (JSON)</text>
+
+<line x1="340" y1="238" x2="340" y2="264" class="arr" marker-end="url(#arrow)"/>
+
+<!-- Stage 2 -->
+<rect x="40" y="266" width="600" height="90" rx="10" stroke-width="0.5" class="s2"/>
+<text class="th" x="340" y="292" text-anchor="middle">Stage 2 — company research agent</text>
+<text class="ts" x="340" y="312" text-anchor="middle">3 Serper queries per company (profile · financials · news) — 84 searches cached to Drive</text>
+<text class="ts" x="340" y="332" text-anchor="middle">Groq batch extraction → profiles JSON (overview · plants · financials · challenges)</text>
+
+<line x1="340" y1="356" x2="340" y2="382" class="arr" marker-end="url(#arrow)"/>
+
+<!-- Stage 3 -->
+<rect x="40" y="384" width="600" height="108" rx="10" stroke-width="0.5" class="s3"/>
+<text class="th" x="340" y="408" text-anchor="middle">Stage 3 — prospect prioritization (no search)</text>
+<text class="ts" x="340" y="428" text-anchor="middle">5-criterion weighted rubric, scored per segment (3 Groq calls)</text>
+<text class="ts" x="340" y="446" text-anchor="middle">Pain evidence 30% · Scale 25% · Solution fit 25% · Winnability 15% · Data maturity 5%</text>
+<text class="ts" x="340" y="464" text-anchor="middle">Segment quotas → Top 12 shortlist (4 OEM · 4 Tier-1 · 4 Component)</text>
+
+<line x1="340" y1="492" x2="340" y2="518" class="arr" marker-end="url(#arrow)"/>
+
+<!-- Stage 4 -->
+<rect x="40" y="520" width="600" height="90" rx="10" stroke-width="0.5" class="s4"/>
+<text class="th" x="340" y="546" text-anchor="middle">Stage 4 — solution mapping  ★  (handbook RAG)</text>
+<text class="ts" x="340" y="566" text-anchor="middle">Pain signals → ChromaDB retrieval → Groq recommendation with handbook citations</text>
+<text class="ts" x="340" y="586" text-anchor="middle">Output: challenge · XYZ capability · handbook p. citation · KPI impact · ROI figure</text>
+
+<line x1="340" y1="610" x2="340" y2="636" class="arr" marker-end="url(#arrow)"/>
+
+<!-- Stage 5 -->
+<rect x="40" y="638" width="600" height="56" rx="10" stroke-width="0.5" class="s5"/>
+<text class="th" x="340" y="662" text-anchor="middle">Stage 5 — report generator (pure assembly)</text>
+<text class="ts" x="340" y="681" text-anchor="middle">Industry report · Top 12 profiles · Recommendations · Architecture → S1_Scout_Final_Report.md</text>
+
+<!-- Legend -->
+<rect x="40" y="706" width="9" height="9" rx="2" fill="#1D9E75"/>
+<text class="leg" x="54" y="715">Serper (search)</text>
+<rect x="160" y="706" width="9" height="9" rx="2" fill="#534AB7"/>
+<text class="leg" x="174" y="715">Groq LLM</text>
+<rect x="260" y="706" width="9" height="9" rx="2" fill="#D85A30"/>
+<text class="leg" x="274" y="715">ChromaDB RAG</text>
+<rect x="390" y="706" width="9" height="9" rx="2" fill="#888780"/>
+<text class="leg" x="404" y="715">Drive cache (JSON)</text>
+<rect x="530" y="706" width="9" height="9" rx="2" fill="#185FA5"/>
+<text class="leg" x="544" y="715">CrewAI agent</text>
+</svg>
