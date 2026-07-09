@@ -1,6 +1,6 @@
 # S1-Scout: Reconnaissance for Revenue
 ## AI Sales Intelligence Report — XYZ Analytics Consulting
-*Generated: July 08, 2026 | Indian Automotive Market*
+*Generated: July 09, 2026 | Indian Automotive Market*
 
 ---
 
@@ -773,3 +773,31 @@ Final universe: 52 companies across 3 segments, tagged by cap tier and sub-verti
 - Serper free tier used (~200 of 2,500 queries consumed)
 - Groq free tier used (llama-3.3-70b-versatile, 12k TPM on-demand tier)
 - ChromaDB in-memory index rebuilt on every Colab runtime (~30 sec)
+
+---
+
+# Part 5: Visual Analysis
+
+## Prospect Scorecard — Top 12 ranked by weighted score
+![Scorecard](chart_scorecard.png)
+
+*Score range: 6.2 (Sundram Fasteners) → 8.0 (Ramkrishna Forgings). Segment balance: 4 OEM, 4 Tier-1 Supplier, 4 Component Manufacturer.*
+
+---
+
+## Impact vs Winnability Matrix — Sales strategy quadrants
+![Matrix](chart_matrix.png)
+
+| Quadrant | Companies | Recommended approach |
+|---|---|---|
+| ★ Quick Wins | Ramkrishna Forgings · Pricol Limited · Rane Holdings | Pilot offer · Fast close |
+| Strategic Plays | Tata Motors · Samvardhana Motherson · Maruti Suzuki India · Bosch Limited | PoC · Executive outreach |
+| Opportunistic | Ola Electric · Uno Minda · Sona BLW (Sona Comstar. · Sundram Fasteners | Qualify further |
+| Lower Priority | Bajaj Auto | Deprioritise for now |
+
+---
+
+## Score Component Breakdown — What drives each ranking
+![Breakdown](chart_breakdown.png)
+
+*Sundram Fasteners has low pain evidence scores — ranked on scale and winnability. Anti-hallucination rule: no pain signal was fabricated.*
