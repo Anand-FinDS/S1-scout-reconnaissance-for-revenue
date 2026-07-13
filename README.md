@@ -85,7 +85,7 @@ Screened from listed stocks across NSE/BSE automotive sub-industries, ACMA membe
 - **Raw universe:** Gathered 220+ companies scraped and filtered 136 companies using Mcap
 - **Active universe:** 75 companies (post deduplication + active filter)
 - **Top 15 prospects:** 5 OEM · 5 Tier-1 Supplier · 5 Component — minimum 3 private companies guaranteed via two-pass selection
-
+![S1-Scout Data Mining Flow](s1_scout_Data_mining_flow.svg)
 ---
 
 ## Key Design Decisions
