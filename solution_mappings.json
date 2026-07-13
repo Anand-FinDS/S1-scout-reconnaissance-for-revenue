@@ -1,0 +1,490 @@
+[
+  {
+    "name": "Ola Electric",
+    "segment": "OEM | Cap tier: mid",
+    "recommended_service": "Dealer BI",
+    "executive_summary": "Ola Electric, an Indian EV manufacturer, is facing challenges in supplier relationships, sales-registration mismatches, and transitioning to electric vehicles. XYZ Analytics Consulting offers Dealer BI to streamline dealership performance, address underperformance, and boost sales conversion rates. By leveraging real-time dealer data, Ola Electric can enhance its market position and increase extended warranty sales.",
+    "business_challenges": [
+      "Supplier disputes affecting production efficiency",
+      "Sales-registration mismatches leading to revenue discrepancies",
+      "Challenges in transitioning effectively to electric vehicles"
+    ],
+    "solution_mapping": [
+      {
+        "challenge": "Supplier disputes affecting production efficiency",
+        "xyz_capability": "Supply-Chain Risk Prediction to monitor supply disruptions (Handbook p.4)",
+        "handbook_citation": "Handbook p.4",
+        "kpi_impact": "Sales per Dealer"
+      },
+      {
+        "challenge": "Sales-registration mismatches leading to revenue discrepancies",
+        "xyz_capability": "Consolidated dealer performance dashboard across the entire network (Handbook p.11)",
+        "handbook_citation": "Handbook p.11",
+        "kpi_impact": "Sales per Dealer, Showroom Conversion Rate"
+      },
+      {
+        "challenge": "Challenges in transitioning effectively to electric vehicles",
+        "xyz_capability": "Identification of underperforming dealers by sales, service, and aftermarket metrics (Handbook p.11)",
+        "handbook_citation": "Handbook p.11",
+        "kpi_impact": "Finance Penetration, Showroom Conversion Rate"
+      }
+    ],
+    "expected_business_value": "Networks that adopt structured dealer analytics report a 15% increase in extended-warranty sales and a KPI achievement rate improvement of 10–20%.",
+    "why_winnable": "Ola Electric's ambition to be a quality EV hub aligns with XYZ's proven track record of boosting dealership performance."
+  },
+  {
+    "name": "Sona BLW Precis.",
+    "segment": "Component Manufacturer",
+    "recommended_service": "Supply-Risk AI",
+    "executive_summary": "Sona BLW Precis. is a leading automotive component manufacturer facing challenges in transitioning to electric vehicles and managing supply chain disruptions. By leveraging XYZ's Supply-Risk AI, they can anticipate and mitigate these disruptions, ensuring business continuity. This will enable Sona BLW Precis. to sustain their impressive revenue growth and enhance their market position.",
+    "business_challenges": [
+      "Supply chain issues affecting component availability and production continuity.",
+      "Challenges in transitioning to electric vehicle component manufacturing, especially in a global and competitive market."
+    ],
+    "solution_mapping": [
+      {
+        "challenge": "Supply chain issues affecting component availability and production continuity.",
+        "xyz_capability": "Real-time risk scoring for suppliers, components, and logistics routes.",
+        "handbook_citation": "Handbook p.9",
+        "kpi_impact": "Supplier Risk Score, Parts Availability"
+      },
+      {
+        "challenge": "Challenges in transitioning to electric vehicle component manufacturing.",
+        "xyz_capability": "Disruption simulation — modelling the production impact of a supplier failure or material shortage.",
+        "handbook_citation": "Handbook p.9",
+        "kpi_impact": "Days of Inventory"
+      }
+    ],
+    "expected_business_value": "AI-driven supply-chain management can cut logistics costs by up to 15% and reduce excess inventory by approximately 35%, as per Handbook p.9.",
+    "why_winnable": "Given Sona BLW Precis.'s proactive investment in EV technology and its current supply chain challenges, XYZ's targeted solutions can offer immediate and measurable improvements."
+  },
+  {
+    "name": "Banco Products",
+    "segment": "Component Manufacturer | Cap tier: small",
+    "recommended_service": "Supply-Risk AI",
+    "executive_summary": "Banco Products, a manufacturer of auto components, is seeking to strengthen its supply chain amidst disruptions caused by a West Asian crisis. XYZ's Supply-Risk AI can help anticipate and mitigate disruptions, offering Banco Products a reliable strategic partner. By implementing this service, Banco Products can expect increased resilience in supply chain management, ensuring continuity and efficiency.",
+    "business_challenges": [
+      "Supply chain disruptions due to the West Asian crisis",
+      "Potential material shortages impacting production",
+      "Maintaining high levels of parts availability amidst external risks"
+    ],
+    "solution_mapping": [
+      {
+        "challenge": "Supply chain disruptions due to the West Asian crisis",
+        "xyz_capability": "Real-time risk scoring for suppliers, components, and logistics routes.",
+        "handbook_citation": "Handbook p.9",
+        "kpi_impact": "Supplier Risk Score"
+      },
+      {
+        "challenge": "Potential material shortages impacting production",
+        "xyz_capability": "Disruption simulation – modelling the production impact of a supplier failure or material shortage.",
+        "handbook_citation": "Handbook p.9",
+        "kpi_impact": "Parts Availability"
+      },
+      {
+        "challenge": "Maintaining high levels of parts availability amidst external risks",
+        "xyz_capability": "Predictive lead-time forecasting for critical parts.",
+        "handbook_citation": "Handbook p.9",
+        "kpi_impact": "Days of Inventory"
+      }
+    ],
+    "expected_business_value": "AI-driven supply-chain management can reduce excess inventory by approximately 35% and cut logistics costs by up to 15%, as cited in Handbook p.17.",
+    "why_winnable": "Banco Products is proactively seeking growth and addressing supply chain disruptions, making them a prime candidate for strategic supply chain solutions like XYZ's AI-driven capabilities."
+  },
+  {
+    "name": "Belrise Industri",
+    "segment": "Component Manufacturer | Cap tier: mid",
+    "recommended_service": "Supply-Risk AI",
+    "executive_summary": "Belrise Industri, an integrated automotive component manufacturer, is focused on expanding its electric vehicle components across multiple segments amidst significant growth. Given their rapid YoY revenue growth and significant profit increase, joining forces with XYZ Analytics can further bolster their supply chain resilience. By adopting Supply-Chain Risk Prediction, Belrise can anticipate disruptions early, ensuring seamless production continuity, reducing logistics costs, and minimizing excess inventory.",
+    "business_challenges": [
+      "EV transition challenges impacting auto supply chain resilience",
+      "Manufacturing crisis causing stalls and reduced investments",
+      "Managing multi-tier supplier network vulnerabilities"
+    ],
+    "solution_mapping": [
+      {
+        "challenge": "EV transition challenges impacting auto supply chain resilience",
+        "xyz_capability": "Real-time risk scoring for suppliers, components, and logistics routes",
+        "handbook_citation": "Handbook p.9",
+        "kpi_impact": "Supplier Risk Score"
+      },
+      {
+        "challenge": "Manufacturing crisis causing stalls and reduced investments",
+        "xyz_capability": "Disruption simulation — modelling the production impact of a supplier failure or material shortage",
+        "handbook_citation": "Handbook p.9",
+        "kpi_impact": "Days of Inventory"
+      },
+      {
+        "challenge": "Managing multi-tier supplier network vulnerabilities",
+        "xyz_capability": "Graph-based analysis of multi-tier supplier networks to map dependencies and vulnerability points",
+        "handbook_citation": "Handbook p.9",
+        "kpi_impact": "Parts Availability"
+      }
+    ],
+    "expected_business_value": "AI-driven supply-chain management can cut logistics costs by up to 15% and reduce excess inventory by approximately 35%, as stated in the handbook.",
+    "why_winnable": "Belrise's focus on electric components amidst EV transition challenges aligns seamlessly with XYZ's proven supply-chain solutions, making collaboration a strategic win."
+  },
+  {
+    "name": "Ather Energy",
+    "segment": "OEM",
+    "recommended_service": "Supply-Risk AI",
+    "executive_summary": "Ather Energy is a rapidly growing electric vehicle manufacturer in India, facing supply chain disruptions due to rare earth magnet shortages. Partnering with XYZ will enable Ather to utilize AI-driven supply-chain management to proactively anticipate and mitigate risks. This will lead to reduced logistics costs and enhanced production continuity, setting the stage for further growth.",
+    "business_challenges": [
+      "Delays in claiming ₹26 crore incentive due to supply chain disruptions",
+      "Rare earth magnet shortages affecting production continuity"
+    ],
+    "solution_mapping": [
+      {
+        "challenge": "Delays in claiming ₹26 crore incentive due to supply chain disruptions",
+        "xyz_capability": "Real-time risk scoring for suppliers, components, and logistics routes",
+        "handbook_citation": "Handbook p.9",
+        "kpi_impact": "Supplier Risk Score, Parts Availability"
+      },
+      {
+        "challenge": "Rare earth magnet shortages affecting production continuity",
+        "xyz_capability": "Disruption simulation — modelling the production impact of a supplier failure or material shortage",
+        "handbook_citation": "Handbook p.9",
+        "kpi_impact": "Days of Inventory, Parts Availability"
+      }
+    ],
+    "expected_business_value": "AI-driven supply-chain optimization can reduce logistics costs by up to 15% and lower inventory by approximately 35% (Handbook p.17).",
+    "why_winnable": "XYZ’s tailored AI-powered solutions can provide critical insights and pre-emptive actions that Ather Energy needs during its expansion phase."
+  },
+  {
+    "name": "Craftsman Auto",
+    "segment": "Component Manufacturer | Tier-1 Supplier",
+    "recommended_service": "Supply-Risk AI",
+    "executive_summary": "Craftsman Auto, a leading auto component manufacturer in India, is navigating the challenges of a rapidly changing market, including the transition to electric vehicles. XYZ Analytics Consulting can provide crucial support through its Supply-Risk AI service, offering real-time insights into supply chain vulnerabilities. This will enable Craftsman Auto to anticipate and mitigate disruptions, ensuring production continuity and leveraging data-driven decision-making to maintain its competitive edge.",
+    "business_challenges": [
+      "Supply chain resilience amid the transition to electric vehicles",
+      "Potential production downtime due to supply chain disruptions",
+      "Effective management of multi-tier supplier networks"
+    ],
+    "solution_mapping": [
+      {
+        "challenge": "Supply chain resilience amid the transition to electric vehicles",
+        "xyz_capability": "Real-time risk scoring for suppliers, components, and logistics routes",
+        "handbook_citation": "p.9",
+        "kpi_impact": "Supplier Risk Score"
+      },
+      {
+        "challenge": "Potential production downtime due to supply chain disruptions",
+        "xyz_capability": "Disruption simulation — modelling the production impact of a supplier failure or material shortage",
+        "handbook_citation": "p.9",
+        "kpi_impact": "Days of Inventory"
+      },
+      {
+        "challenge": "Effective management of multi-tier supplier networks",
+        "xyz_capability": "Graph-based analysis of multi-tier supplier networks to map dependencies and vulnerability points",
+        "handbook_citation": "p.9",
+        "kpi_impact": "Parts Availability"
+      }
+    ],
+    "expected_business_value": "AI-driven supply-chain management can reduce logistics costs by up to 15% and excess inventory by approximately 35%, as detailed by industry analysis in the handbook (p.9).",
+    "why_winnable": "Craftsman Auto's focus on informed decision-making and agility aligns perfectly with XYZ's data-driven supply-chain optimization, promising tangible results."
+  },
+  {
+    "name": "Exide Inds.",
+    "segment": "Component Manufacturer | Cap tier: Tier-1 Supplier",
+    "recommended_service": "Supply-Risk AI",
+    "executive_summary": "Exide Industries is a leading auto component manufacturer in India facing challenges with the EV transition and supply chain disruptions. XYZ Analytics Consulting will apply AI-driven supply-chain risk prediction to proactively manage and mitigate disruptions. This will enhance production continuity and improve inventory management, ultimately supporting Exide's growth initiatives.",
+    "business_challenges": [
+      "EV transition challenges",
+      "Supply chain disruptions",
+      "Margin pressure"
+    ],
+    "solution_mapping": [
+      {
+        "challenge": "Supply chain disruptions",
+        "xyz_capability": "Real-time risk scoring for suppliers, components, and logistics routes",
+        "handbook_citation": "Handbook p.9",
+        "kpi_impact": "Supplier Risk Score"
+      },
+      {
+        "challenge": "EV transition challenges",
+        "xyz_capability": "Disruption simulation — modelling the production impact of a supplier failure or material shortage",
+        "handbook_citation": "Handbook p.9",
+        "kpi_impact": "Parts Availability"
+      },
+      {
+        "challenge": "Margin pressure",
+        "xyz_capability": "Predictive lead-time forecasting for critical parts",
+        "handbook_citation": "Handbook p.9",
+        "kpi_impact": "Days of Inventory"
+      }
+    ],
+    "expected_business_value": "AI-driven supply-chain management can reduce logistics costs by up to 15% and excess inventory by approximately 35%, as cited on Handbook p.17.",
+    "why_winnable": "XYZ's proven expertise in AI-driven supply-chain optimization aligns with Exide Inds.'s urgent needs."
+  },
+  {
+    "name": "Renault Nissan Automotive India",
+    "segment": "OEM",
+    "recommended_service": "Dealer BI",
+    "executive_summary": "Renault Nissan Automotive India, a joint venture between Renault and Nissan, is navigating through a significant transition as Renault plans to buy out Nissan's stake. XYZ Analytics can help them leverage Dealer BI to transform dealer operations, improve financial penetration, and maintain a high level of customer satisfaction. The expected outcome is optimized dealer performance leading to improved sales and service metrics.",
+    "business_challenges": [
+      "Inconsistent dealer performance across its network",
+      "Need for better alignment between service capacity and regional demand",
+      "High dependency on Nissan's network and pending transition affecting dealer operations"
+    ],
+    "solution_mapping": [
+      {
+        "challenge": "Inconsistent dealer performance across its network",
+        "xyz_capability": "Consolidated dealer performance dashboard across the entire network",
+        "handbook_citation": "Handbook p.11, Key Capabilities",
+        "kpi_impact": "Sales per Dealer, Showroom Conversion Rate"
+      },
+      {
+        "challenge": "Need for better alignment between service capacity and regional demand",
+        "xyz_capability": "Demand forecasting for service appointments by region and vehicle type",
+        "handbook_citation": "Handbook p.11, Key Capabilities",
+        "kpi_impact": "MTTR, First-Time Fix Rate"
+      },
+      {
+        "challenge": "High dependency on Nissan's network and pending transition affecting dealer operations",
+        "xyz_capability": "Identification of underperforming dealers by sales, service, and aftermarket metrics",
+        "handbook_citation": "Handbook p.11, Key Capabilities",
+        "kpi_impact": "Finance Penetration, CSI Score"
+      }
+    ],
+    "expected_business_value": "Dealers using XYZ's analytics have reported a 15% increase in extended-warranty sales within a year, with KPI achievement rate improvements of 10–20%.",
+    "why_winnable": "Renault seeks efficient solutions during its transition phase, making our proven Dealer BI a timely and strategic fit."
+  },
+  {
+    "name": "Stellantis India",
+    "segment": "OEM",
+    "recommended_service": "Dealer BI",
+    "executive_summary": "Stellantis India, a part of Stellantis NV focusing on manufacturing passenger and utility vehicles, is undergoing a strategic business reset to address customer preferences and enhance operational efficiencies amidst substantial financial charges linked to its EV strategy. XYZ's Dealer BI can streamline their dealer network performance, optimizing sales and service operations through data consolidation and structured analytics. This will drive growth and efficiency by leveraging comprehensive dealer insights and performance enhancement solutions.",
+    "business_challenges": [
+      "Restructuring operations amidst EV strategy overhaul",
+      "Inconsistent dealer performance visibility across the network",
+      "Mismatch between service demand and capacity"
+    ],
+    "solution_mapping": [
+      {
+        "challenge": "Restructuring operations amidst EV strategy overhaul",
+        "xyz_capability": "Dealer & Field Service Intelligence which aggregates data on sales performance, finance penetration, service bookings, parts turnover, and warranty upsell rates.",
+        "handbook_citation": "Handbook p.11",
+        "kpi_impact": "Sales per Dealer, Showroom Conversion Rate"
+      },
+      {
+        "challenge": "Inconsistent dealer performance visibility across the network",
+        "xyz_capability": "Consolidated dealer performance dashboard across the entire network.",
+        "handbook_citation": "Handbook p.11",
+        "kpi_impact": "Finance Penetration, CSI Score"
+      },
+      {
+        "challenge": "Mismatch between service demand and capacity",
+        "xyz_capability": "Demand forecasting for service appointments by region and vehicle type.",
+        "handbook_citation": "Handbook p.11",
+        "kpi_impact": "MTTR, First-Time Fix Rate"
+      }
+    ],
+    "expected_business_value": "Network-wide deployment of structured dealer analytics can drive a 15% increase in extended-warranty sales and a 10–20% improvement in KPI achievement rates.",
+    "why_winnable": "XYZ can uniquely address Stellantis India's challenges by providing specific, data-driven dealer insights crucial for their strategic reset."
+  },
+  {
+    "name": "Sansera Enginee.",
+    "segment": "Tier-1 Supplier | Cap tier: mid",
+    "recommended_service": "Warranty Analytics",
+    "executive_summary": "Sansera Enginee., a major Indian automotive component manufacturer, faces critical challenges due to a significant client order recall impacting their financial stability. By leveraging XYZ's Warranty Analytics, Sansera can detect quality issues early, reduce claim costs, and prevent recalls, which aligns perfectly with their current needs and expected growth. The solution is expected to enhance their operational efficiency, prevent potential losses, and secure their market position.",
+    "business_challenges": [
+      "Order recall of Rs 3,066 crore impacting revenue and profit.",
+      "Need for growth amidst financial performance challenges.",
+      "Maintaining quality standards to avoid future recalls."
+    ],
+    "solution_mapping": [
+      {
+        "challenge": "Order recall of Rs 3,066 crore impacting revenue and profit.",
+        "xyz_capability": "XYZ's Warranty Analytics can detect quality issues early to prevent recalls, as detailed in Handbook p.4.",
+        "handbook_citation": "Handbook p.4",
+        "kpi_impact": "Defects per 1,000 Vehicles, Warranty Spend per Unit"
+      },
+      {
+        "challenge": "Need for growth amidst financial performance challenges.",
+        "xyz_capability": "By using predictive analytics to identify defect patterns earlier than traditional methods, XYZ enables reduction in warranty costs, as noted in Warranty Analytics case studies.",
+        "handbook_citation": "Handbook p.17",
+        "kpi_impact": "MTBF, Claim Cycle Time"
+      },
+      {
+        "challenge": "Maintaining quality standards to avoid future recalls.",
+        "xyz_capability": "Correlation analysis and predictive models estimating failure probability support early-warning alerts for quality management.",
+        "handbook_citation": "Handbook p.7",
+        "kpi_impact": "Defects per 1,000 Vehicles, Mean Time Between Failures (MTBF)"
+      }
+    ],
+    "expected_business_value": "A 5% reduction in warranty cost, as discussed in Handbook p.17, can translate to significant savings, roughly ₹25 crore annually, improving Sansera's profit margins.",
+    "why_winnable": "Sansera Enginee.'s recent order recall and quality concerns align perfectly with XYZ's expertise in warranty analytics, making engagement with us a logical next step to prevent future setbacks."
+  },
+  {
+    "name": "Honda Cars India",
+    "segment": "OEM",
+    "recommended_service": "Dealer BI",
+    "executive_summary": "Honda Cars India aims to expand its electric vehicle offerings amidst financial challenges. By leveraging XYZ's Dealer BI, Honda can gain a unified view of dealer performance to optimize sales and service operations. This is expected to drive improved sales and service efficiency, supporting their goal of double-digit growth.",
+    "business_challenges": [
+      "EV transition challenges, including cancellation of planned models",
+      "First annual loss in 70 years due to high EV-related costs",
+      "Inconsistent dealer performance impacting domestic sales growth"
+    ],
+    "solution_mapping": [
+      {
+        "challenge": "EV transition challenges, including cancellation of planned models",
+        "xyz_capability": "Consolidated dealer performance dashboard across the entire network",
+        "handbook_citation": "[Handbook p.11] Key Capabilities",
+        "kpi_impact": "Sales per Dealer"
+      },
+      {
+        "challenge": "First annual loss in 70 years due to high EV-related costs",
+        "xyz_capability": "Identification of underperforming dealers by sales, service, and aftermarket metrics",
+        "handbook_citation": "[Handbook p.11] Key Capabilities",
+        "kpi_impact": "Showroom Conversion Rate"
+      },
+      {
+        "challenge": "Inconsistent dealer performance impacting domestic sales growth",
+        "xyz_capability": "Lead-scoring models estimating conversion likelihood for incoming prospects",
+        "handbook_citation": "[Handbook p.11] Key Capabilities",
+        "kpi_impact": "Finance Penetration"
+      }
+    ],
+    "expected_business_value": "Networks using structured dealer analytics have reported 15% increases in extended-warranty sales within a year and KPI achievement rate improvements of 10-20% [Handbook p.11] Business Value.",
+    "why_winnable": "XYZ Analytics Consulting can provide Honda Cars India with critical insights and tools to stabilize and improve their dealer network performance, which is pivotal for their growth strategy in a challenging market."
+  },
+  {
+    "name": "Minda Corp",
+    "segment": "Tier-1 Supplier",
+    "recommended_service": "Supply-Risk AI",
+    "executive_summary": "Minda Corp is experiencing robust growth in the automotive sector, focusing on expanding its electric vehicle components. XYZ Analytics can support Minda Corp by utilizing Supply-Risk AI to anticipate and mitigate supply chain disruptions. This service will help ensure production continuity and capitalize on the growing EV market.",
+    "business_challenges": [
+      "Risk of supply chain disruptions impacting EV components production",
+      "Maintaining efficient inventory management to support growth",
+      "Optimizing logistics and parts availability"
+    ],
+    "solution_mapping": [
+      {
+        "challenge": "Risk of supply chain disruptions impacting EV components production",
+        "xyz_capability": "Real-time risk scoring for suppliers, components, and logistics routes",
+        "handbook_citation": "Handbook p.9",
+        "kpi_impact": "Supplier Risk Score"
+      },
+      {
+        "challenge": "Maintaining efficient inventory management to support growth",
+        "xyz_capability": "Predictive lead-time forecasting for critical parts",
+        "handbook_citation": "Handbook p.9",
+        "kpi_impact": "Days of Inventory"
+      },
+      {
+        "challenge": "Optimizing logistics and parts availability",
+        "xyz_capability": "AI-driven supply-chain management to reduce logistics costs and excess inventory",
+        "handbook_citation": "Handbook p.17",
+        "kpi_impact": "Parts Availability"
+      }
+    ],
+    "expected_business_value": "AI-driven supply-chain optimization can cut logistics costs by up to 15% and reduce excess inventory by approximately 35%, leading to improved financial performance.",
+    "why_winnable": "XYZ's proven track record in AI-driven supply-chain optimization aligns with Minda Corp's growth initiatives in the EV sector."
+  },
+  {
+    "name": "Amara Raja Ener.",
+    "segment": "Tier-1 Supplier",
+    "recommended_service": "Supply-Risk AI",
+    "executive_summary": "Amara Raja Energy & Mobility is a leading battery manufacturer in India with a focus on EV energy solutions. XYZ Analytics Consulting can enhance their supply-chain robustness using the Supply-Risk AI service, enabling early risk detection and mitigation. This approach is expected to significantly improve their logistics efficiency and inventory management.",
+    "business_challenges": [
+      "Need for early detection of supply-chain risks to prevent production disruptions.",
+      "Optimizing inventory levels to reduce excess stock while maintaining part availability.",
+      "Enhancing resilience against external disruptions like logistics or supplier failures."
+    ],
+    "solution_mapping": [
+      {
+        "challenge": "Need for early detection of supply-chain risks to prevent production disruptions.",
+        "xyz_capability": "Real-time risk scoring for suppliers, components, and logistics routes.",
+        "handbook_citation": "[Handbook p.9] Supply-Chain Risk Prediction",
+        "kpi_impact": "Supplier Risk Score"
+      },
+      {
+        "challenge": "Optimizing inventory levels to reduce excess stock while maintaining part availability.",
+        "xyz_capability": "Predictive lead-time forecasting for critical parts.",
+        "handbook_citation": "[Handbook p.9] Predictive lead-time forecasting",
+        "kpi_impact": "Days of Inventory, Parts Availability"
+      },
+      {
+        "challenge": "Enhancing resilience against external disruptions like logistics or supplier failures.",
+        "xyz_capability": "Disruption simulation — modelling the production impact of a supplier failure or material shortage.",
+        "handbook_citation": "[Handbook p.9] Disruption simulation",
+        "kpi_impact": "Supplier Risk Score, Parts Availability"
+      }
+    ],
+    "expected_business_value": "AI-driven supply-chain management can reduce logistics costs by up to 15% and cut excess inventory by approximately 35%.",
+    "why_winnable": "With no specific pain signals yet a clear focus on growth initiatives, Amara Raja Ener. is likely to engage XYZ for proactive supply-chain enhancements."
+  },
+  {
+    "name": "JBM Auto",
+    "segment": "Tier-1 Supplier",
+    "recommended_service": "Supply-Risk AI",
+    "executive_summary": "JBM Auto has transitioned from a vehicle manufacturer to an electric mobility ecosystem provider, increasing its reliance on complex supply chains for electric buses and components. XYZ's Supply-Risk AI is designed to improve supply chain predictability and resilience, aligning perfectly with JBM Auto's growth initiatives in scaling electric mobility. The expected outcome is enhanced production continuity and reduced cost implications from supply disruptions.",
+    "business_challenges": [
+      "Ensuring continuity in the supply of critical components for electric buses.",
+      "Managing the complex multi-tier supplier network involved in electric mobility solutions.",
+      "Anticipating and mitigating risks from external disruptions such as weather events or port issues."
+    ],
+    "solution_mapping": [
+      {
+        "challenge": "Ensuring continuity in the supply of critical components for electric buses.",
+        "xyz_capability": "Real-time risk scoring for suppliers, components, and logistics routes.",
+        "handbook_citation": "Handbook p.9",
+        "kpi_impact": "Parts Availability"
+      },
+      {
+        "challenge": "Managing the complex multi-tier supplier network involved in electric mobility solutions.",
+        "xyz_capability": "Graph-based analysis of multi-tier supplier networks to map dependencies and vulnerability points.",
+        "handbook_citation": "Handbook p.9",
+        "kpi_impact": "Supplier Risk Score"
+      },
+      {
+        "challenge": "Anticipating and mitigating risks from external disruptions such as weather events or port issues.",
+        "xyz_capability": "Monitoring of external risk signals: weather events, political developments, port closures, supplier financial stress.",
+        "handbook_citation": "Handbook p.9",
+        "kpi_impact": "Days of Inventory"
+      }
+    ],
+    "expected_business_value": "AI-driven supply-chain management can potentially cut logistics costs by up to 15% and reduce excess inventory by approximately 35%.",
+    "why_winnable": "JBM Auto, with its strategic focus on electric mobility, would engage XYZ to leverage data-driven insights for competitive advantage and operational resilience."
+  },
+  {
+    "name": "Sedemac Mechatro",
+    "segment": "Tier-1 Supplier",
+    "recommended_service": "Warranty Analytics",
+    "executive_summary": "Sedemac Mechatro, a mid-cap tier-1 supplier, focuses on critical automotive electronic systems and controls. With impressive growth and a robust financial outlook, Sedemac seeks to expand its product range and market presence. By leveraging XYZ's Warranty Analytics, Sedemac can enhance defect detection, resulting in significant cost savings and operational efficiency.",
+    "business_challenges": [
+      "Effective detection and management of defects in automotive electronic control systems.",
+      "Maintaining and improving warranty costs amidst rapid product and market expansion.",
+      "Optimizing the claim cycle time to enhance customer satisfaction."
+    ],
+    "solution_mapping": [
+      {
+        "challenge": "Effective detection and management of defects in automotive electronic control systems.",
+        "xyz_capability": "Correlation analysis linking defects to specific suppliers, plants, or production batches.",
+        "handbook_citation": "Handbook p.7",
+        "kpi_impact": [
+          "Defects per 1,000 Vehicles",
+          "MTBF"
+        ]
+      },
+      {
+        "challenge": "Maintaining and improving warranty costs amidst rapid product and market expansion.",
+        "xyz_capability": "Proactive quality analytics can reduce warranty costs by 5–10%.",
+        "handbook_citation": "Handbook p.17",
+        "kpi_impact": [
+          "Warranty Spend per Unit"
+        ]
+      },
+      {
+        "challenge": "Optimizing the claim cycle time to enhance customer satisfaction.",
+        "xyz_capability": "Early-warning alerts triggered by statistically significant claim spikes.",
+        "handbook_citation": "Handbook p.7",
+        "kpi_impact": [
+          "Claim Cycle Time"
+        ]
+      }
+    ],
+    "expected_business_value": "McKinsey research notes that proactive quality analytics can reduce warranty costs by 5–10%, translating to potential annual savings of ₹25 crore for a manufacturer spending ₹500 crore per year on warranty.",
+    "why_winnable": "Sedemac Mechatro will benefit from XYZ's proven track record in enhancing warranty analytics, which aligns with their growth initiatives and expansion plans."
+  }
+]

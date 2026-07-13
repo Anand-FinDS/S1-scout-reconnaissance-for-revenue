@@ -1,0 +1,347 @@
+[
+  {
+    "name": "Ola Electric",
+    "segment": "OEM",
+    "cap_tier": "mid",
+    "score": 73.5,
+    "is_private": false,
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 8,
+      "ev_transition_pressure": 10,
+      "financial_health": 3,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Evidence of supplier disputes and sales-registration mismatches.",
+      "winnability": "No incumbent evidence with multiple active pain signals related to EV.",
+      "ev_transition_pressure": "Core business is EV-dependent with focus on electric two-wheelers and three-wheelers.",
+      "financial_health": "Loss-making with a net loss of ₹18.3b in FY2026.",
+      "growth_momentum": "Plans to launch new products, including an e-scooter with an extended warranty.",
+      "analytics_gap": "Profile doesn't mention specific analytics capabilities or gaps."
+    }
+  },
+  {
+    "name": "Sona BLW Precis.",
+    "segment": "Component Manufacturer",
+    "cap_tier": "mid",
+    "score": 73.5,
+    "is_private": false,
+    "scores": {
+      "pain_signal_strength": 6,
+      "winnability": 8,
+      "ev_transition_pressure": 8,
+      "financial_health": 9,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific supply chain issue and EV transition challenges are mentioned.",
+      "winnability": "No incumbent evidence; active XYZ-fit pain signals around supply chain and EV transition.",
+      "ev_transition_pressure": "Active EV product development and joint venture in China.",
+      "financial_health": "Strong financial performance with 47% revenue growth YoY.",
+      "growth_momentum": "Investment in joint venture and EV technology.",
+      "analytics_gap": "No specific analytics issues mentioned; assume neutral."
+    }
+  },
+  {
+    "name": "Banco Products",
+    "segment": "Component Manufacturer",
+    "cap_tier": "small",
+    "score": 73.5,
+    "is_private": false,
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 7,
+      "ev_transition_pressure": 7,
+      "financial_health": 9,
+      "growth_momentum": 8,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Evidence of supply chain disruptions due to West Asian crisis.",
+      "winnability": "No incumbent evidence plus supply chain pain signal with proactive growth strategies.",
+      "ev_transition_pressure": "Proactive EV market entry indicates active transition.",
+      "financial_health": "Strong revenue and profit growth with high ROE.",
+      "growth_momentum": "EV strategy and bonus issue denote active growth initiatives.",
+      "analytics_gap": "No specific analytics gap mentioned, suggesting a neutral score."
+    }
+  },
+  {
+    "name": "Belrise Industri",
+    "segment": "Component Manufacturer",
+    "cap_tier": "mid",
+    "score": 73.5,
+    "is_private": false,
+    "scores": {
+      "pain_signal_strength": 6,
+      "winnability": 8,
+      "ev_transition_pressure": 8,
+      "financial_health": 9,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "There are specific pain signals with EV transition challenges affecting their auto supply chain resilience.",
+      "winnability": "No incumbent evidence plus active XYZ-fit pain signal regarding EV transition.",
+      "ev_transition_pressure": "The company is actively focusing on electric vehicle components, indicating a transition pressure.",
+      "financial_health": "Strong financial performance with a 49% revenue increase and a 575% profits jump.",
+      "growth_momentum": "Company is targeting a shift towards electric vehicles and is merging group firms to scale operations.",
+      "analytics_gap": "No specific analytics gap mentioned, assignments as neutral."
+    }
+  },
+  {
+    "name": "Ather Energy",
+    "segment": "OEM",
+    "cap_tier": "mid",
+    "score": 73.0,
+    "is_private": false,
+    "scores": {
+      "pain_signal_strength": 9,
+      "winnability": 8,
+      "ev_transition_pressure": 9,
+      "financial_health": 3,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Multiple specific signals - delays in incentives due to supply chain and rare earth magnet export ban.",
+      "winnability": "No incumbent evidence with active supply chain pain signal.",
+      "ev_transition_pressure": "Core business is EV-dependent, focusing on electric scooters and motorcycles.",
+      "financial_health": "Loss-making with net loss of Rs 100 crore in Q4 FY26.",
+      "growth_momentum": "Investing in supply chain resilience and EV product line expansion.",
+      "analytics_gap": "Profile doesn't mention specific analytics capabilities or gaps."
+    }
+  },
+  {
+    "name": "Craftsman Auto",
+    "segment": "Component Manufacturer",
+    "cap_tier": "Tier-1 Supplier",
+    "score": 72.5,
+    "is_private": false,
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 7,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 8,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific supply chain crisis linked to EV transition challenge.",
+      "winnability": "No incumbent evidence and active pain signal present.",
+      "ev_transition_pressure": "Faced with transition challenges impacting supply chain resilience.",
+      "financial_health": "Strong YoY revenue and net profit growth reported.",
+      "growth_momentum": "Strong Q3 FY26 performance indicates active growth.",
+      "analytics_gap": "No specifics; neutral due to lack of evidence."
+    }
+  },
+  {
+    "name": "Exide Inds.",
+    "segment": "Component Manufacturer",
+    "cap_tier": "Tier-1 Supplier",
+    "score": 72.0,
+    "is_private": false,
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 8,
+      "ev_transition_pressure": 8,
+      "financial_health": 6,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "EV transition challenges, supply chain disruptions, and margin pressure are evidenced.",
+      "winnability": "No incumbent evidence; active XYZ-fit pain signals including margin pressures.",
+      "ev_transition_pressure": "Active EV strategy with new lithium-ion cell production.",
+      "financial_health": "Moderate growth with a 9% YoY increase in revenue.",
+      "growth_momentum": "EV strategy and new automotive battery range 'Epiq'.",
+      "analytics_gap": "No specific analytics issues mentioned; assume neutral."
+    }
+  },
+  {
+    "name": "Renault Nissan Automotive India",
+    "segment": "OEM",
+    "cap_tier": "private",
+    "score": 72.0,
+    "is_private": true,
+    "scores": {
+      "pain_signal_strength": 9,
+      "winnability": 6,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Multiple structural changes with Renault buying Nissan's stake indicate significant pain.",
+      "winnability": "Substantial operational changes but no incumbent involvement noted, providing winnability of 6.",
+      "ev_transition_pressure": "Active investment in new vehicles, including EVs, shows ongoing EV transition.",
+      "financial_health": "Strong revenue growth, but internal joint venture changes present uncertainty.",
+      "growth_momentum": "Investment of INR 5300-cr and plans for new models showcase strong growth momentum.",
+      "analytics_gap": "No details on analytics capabilities or gaps; hence a neutral score."
+    }
+  },
+  {
+    "name": "Stellantis India",
+    "segment": "OEM",
+    "cap_tier": "private",
+    "score": 66.5,
+    "is_private": true,
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 6,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 4,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific evidenced signal with Stellantis planning €22.2bn in charges amid EV strategy reset.",
+      "winnability": "Active XYZ-fit pain signal (EV strategy reset) with no incumbent evidence.",
+      "ev_transition_pressure": "Active EV transition with significant strategic focus.",
+      "financial_health": "Reports indicate a return to growth, with net revenues of €153.5 billion.",
+      "growth_momentum": "Strategic business reset but no aggressive expansion evidence mentioned.",
+      "analytics_gap": "No specific analytics gap mentioned; thus scored neutral."
+    }
+  },
+  {
+    "name": "Sansera Enginee.",
+    "segment": "Tier-1 Supplier",
+    "cap_tier": "mid",
+    "score": 65.5,
+    "is_private": false,
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 7,
+      "ev_transition_pressure": 4,
+      "financial_health": 7,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific signal with major client order recall.",
+      "winnability": "No incumbent evidence plus significant pain signal.",
+      "ev_transition_pressure": "No specific mention of active EV initiatives, indirect relevance.",
+      "financial_health": "Moderate growth with significant profit increase.",
+      "growth_momentum": "Plans for significant U.S. order suggest active expansion.",
+      "analytics_gap": "No analytics gap noted, score remains neutral."
+    }
+  },
+  {
+    "name": "Honda Cars India",
+    "segment": "OEM",
+    "cap_tier": "private",
+    "score": 65.0,
+    "is_private": true,
+    "scores": {
+      "pain_signal_strength": 9,
+      "winnability": 6,
+      "ev_transition_pressure": 8,
+      "financial_health": 3,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Multiple signals of EV transition challenges and annual losses evidenced in the profile.",
+      "winnability": "Specific pain signals without incumbent vendors noted, giving a score of 6.",
+      "ev_transition_pressure": "Actively expanding EV offerings and facing transition challenges.",
+      "financial_health": "Annual losses and reassessment of EV models reflect declining financial performance.",
+      "growth_momentum": "Plans for six new models and aiming for double-digit growth evidence moderate growth momentum.",
+      "analytics_gap": "The profile does not mention any analytics infrastructure or gaps."
+    }
+  },
+  {
+    "name": "Minda Corp",
+    "segment": "Tier-1 Supplier",
+    "cap_tier": "mid",
+    "score": 54.0,
+    "is_private": false,
+    "scores": {
+      "pain_signal_strength": 2,
+      "winnability": 4,
+      "ev_transition_pressure": 8,
+      "financial_health": 8,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No specific pain signals found in profile.",
+      "winnability": "No pain signal found, resulting in low winnability.",
+      "ev_transition_pressure": "Active in EV components and partnerships demonstrate strong transition.",
+      "financial_health": "Healthy revenue growth and strategic partnerships.",
+      "growth_momentum": "Joint ventures and partnerships indicate expansion activities.",
+      "analytics_gap": "No specific analytics gap noted; neutral score."
+    }
+  },
+  {
+    "name": "Amara Raja Ener.",
+    "segment": "Tier-1 Supplier",
+    "cap_tier": "mid",
+    "score": 53.5,
+    "is_private": false,
+    "scores": {
+      "pain_signal_strength": 2,
+      "winnability": 4,
+      "ev_transition_pressure": 9,
+      "financial_health": 7,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No specific pain signals found in profile.",
+      "winnability": "No pain signal; thus, winnability remains low.",
+      "ev_transition_pressure": "Core focus on EV batteries and energy solutions indicates critical dependency.",
+      "financial_health": "Revenue growth but slight decline compared to other scores.",
+      "growth_momentum": "Strategic agreements with focus on energy storage facility.",
+      "analytics_gap": "No analytics gap mentioned; neutral score."
+    }
+  },
+  {
+    "name": "JBM Auto",
+    "segment": "Tier-1 Supplier",
+    "cap_tier": "mid",
+    "score": 51.5,
+    "is_private": false,
+    "scores": {
+      "pain_signal_strength": 2,
+      "winnability": 4,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No specific pain signals found in profile.",
+      "winnability": "No incumbent vendor evidence or specific pain signal found; mid cap status suggests neutral winnability.",
+      "ev_transition_pressure": "Active focus on scaling electric mobility through integration and technology.",
+      "financial_health": "12.55% revenue growth and strong EBITDA margin indicate financial health.",
+      "growth_momentum": "Growth initiatives include scaling electric mobility indicating moderate investment signals.",
+      "analytics_gap": "No specific analytics gap identified, assumed neutral need for data."
+    }
+  },
+  {
+    "name": "Sedemac Mechatro",
+    "segment": "Tier-1 Supplier",
+    "cap_tier": "mid",
+    "score": 44.0,
+    "is_private": false,
+    "scores": {
+      "pain_signal_strength": 2,
+      "winnability": 4,
+      "ev_transition_pressure": 3,
+      "financial_health": 8,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No specific pain signals found in profile.",
+      "winnability": "No incumbent vendor evidence or specific pain signal found; mid cap status suggests neutral winnability.",
+      "ev_transition_pressure": "Indirect exposure through automotive control systems, but no specific EV transition noted.",
+      "financial_health": "Strong financials with 60.5% revenue growth and 33.79% ROCE.",
+      "growth_momentum": "IPO to fund growth and expand market presence indicates active capex cycle.",
+      "analytics_gap": "No specific analytics gap identified, assumed neutral need for data."
+    }
+  }
+]

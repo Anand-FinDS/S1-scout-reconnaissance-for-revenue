@@ -1,0 +1,1427 @@
+{
+  "Maruti Suzuki": {
+    "name": "Maruti Suzuki",
+    "scores": {
+      "pain_signal_strength": 9,
+      "winnability": 6,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Multiple specific pain signals are present, including recalls and supply chain issues.",
+      "winnability": "With no incumbent evidence and active pain signals in supply chain and warranty, winnability is moderate.",
+      "ev_transition_pressure": "Active EV product development is underway with plans to launch EV models.",
+      "financial_health": "Strong market position with evidence of revenue growth in latest financial performance.",
+      "growth_momentum": "Plans to expand EV manufacturing capacity indicate above-moderate growth momentum.",
+      "analytics_gap": "No specific analytics gap is indicated, reflecting a neutral score."
+    }
+  },
+  "M & M": {
+    "name": "M & M",
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 6,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Both supply chain and rare earth magnet shortages present specific pain signals.",
+      "winnability": "No evidence of incumbents and active pain signals give a moderate winnability score.",
+      "ev_transition_pressure": "M & M is actively expanding EV manufacturing and launching new models.",
+      "financial_health": "Strong market position with a significant YoY increase in consolidated PAT.",
+      "growth_momentum": "Ambitious growth strategy includes significant EV manufacturing expansion.",
+      "analytics_gap": "No analytics gap specified, resulting in a neutral score."
+    }
+  },
+  "Bajaj Auto": {
+    "name": "Bajaj Auto",
+    "scores": {
+      "pain_signal_strength": 7,
+      "winnability": 6,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Supply chain issues and rare earth magnet shortages indicate specific pain signals.",
+      "winnability": "Moderate winnability due to lack of incumbent evidence and active pain signals.",
+      "ev_transition_pressure": "Plans for EV expansion outside Maharashtra show an active EV transition.",
+      "financial_health": "Strong financials with significant revenue and profit figures.",
+      "growth_momentum": "Expansion project in Tamil Nadu reflects active investment and growth momentum.",
+      "analytics_gap": "No explicit analytics gap is mentioned, providing a neutral score."
+    }
+  },
+  "Eicher Motors": {
+    "name": "Eicher Motors",
+    "scores": {
+      "pain_signal_strength": 9,
+      "winnability": 6,
+      "ev_transition_pressure": 6,
+      "financial_health": 7,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Multiple specific pain signals, including recalls and supply chain challenges are present.",
+      "winnability": "Due to lack of incumbent evidence and clear signals, winnability is moderate.",
+      "ev_transition_pressure": "EV plans include the launch of Eicher Pro X EV, indicating an active transition.",
+      "financial_health": "Strong revenue growth and high ROE, emphasizing financial health.",
+      "growth_momentum": "Targeting overseas revenue indicates moderate growth momentum.",
+      "analytics_gap": "Absence of a specified analytics gap results in a neutral score."
+    }
+  },
+  "TVS Motor Co.": {
+    "name": "TVS Motor Co.",
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 6,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Voluntary recalls and supply chain challenges indicate specific pain signals.",
+      "winnability": "No incumbents are mentioned, and active pain signals exist, representing moderate winnability.",
+      "ev_transition_pressure": "Active involvement in EV with JV and new product launches indicates pressure.",
+      "financial_health": "Revenue and profit growth are significant, reflecting strong financial health.",
+      "growth_momentum": "Growth includes new product launches and export plans, implying moderate momentum.",
+      "analytics_gap": "No explicit analytics gap is mentioned, resulting in a neutral score."
+    }
+  },
+  "Hyundai Motor I": {
+    "name": "Hyundai Motor I",
+    "scores": {
+      "pain_signal_strength": 9,
+      "winnability": 6,
+      "ev_transition_pressure": 8,
+      "financial_health": 6,
+      "growth_momentum": 8,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific evidenced signals include recalls of EVs due to fire risks, supply chain challenges, and warranty costs.",
+      "winnability": "No incumbent evidence is found, and there are active pain signals related to warranty and supply chain.",
+      "ev_transition_pressure": "Active EV and HEV product development and launch plans are underway.",
+      "financial_health": "Revenue is up 2.3% YoY, but net profit is down, indicating stable to moderate growth.",
+      "growth_momentum": "EV growth initiatives include launching new models, showing moderate investment signals.",
+      "analytics_gap": "No specific analytics gap was mentioned, indicating at least basic data capabilities."
+    }
+  },
+  "Tata Motors": {
+    "name": "Tata Motors",
+    "scores": {
+      "pain_signal_strength": 7,
+      "winnability": 6,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 8,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Evidenced pain signals include softness in demand and supply chain disruptions.",
+      "winnability": "No incumbent evidence, and there are active pain signals related to transition and supply chain.",
+      "ev_transition_pressure": "Active EV strategy and entering the premium EV market indicate strong EV transition.",
+      "financial_health": "Strong revenue growth of 25% YoY with improved profitability trends.",
+      "growth_momentum": "There is a strong active capex cycle visible in new models and export plans.",
+      "analytics_gap": "No specific analytics gap was mentioned, indicating at least basic data capabilities."
+    }
+  },
+  "Tata Motors PVeh": {
+    "name": "Tata Motors PVeh",
+    "scores": {
+      "pain_signal_strength": 7,
+      "winnability": 6,
+      "ev_transition_pressure": 8,
+      "financial_health": 3,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Industry demand softness and supply chain disruptions are evidenced pain signals.",
+      "winnability": "No incumbent evidence and active pain signals related to demand and supply chain.",
+      "ev_transition_pressure": "Active EV strategy and plans to launch five new EV models underway.",
+      "financial_health": "Evidenced declining revenue of -8.1% YoY and a net loss recorded.",
+      "growth_momentum": "There is evidence of active capex with planned launches of new models.",
+      "analytics_gap": "No specific analytics gap was mentioned, indicating at least basic data capabilities."
+    }
+  },
+  "Hero Motocorp": {
+    "name": "Hero Motocorp",
+    "scores": {
+      "pain_signal_strength": 7,
+      "winnability": 6,
+      "ev_transition_pressure": 8,
+      "financial_health": 6,
+      "growth_momentum": 5,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Supply chain disruptions and production halts are evidenced pain signals.",
+      "winnability": "No incumbent evidence and active pain signals related to production and supply chain.",
+      "ev_transition_pressure": "Active EV strategy with new models and expansion plans indicates strong EV transition.",
+      "financial_health": "Profitability specified with net profit figure, indicating stability.",
+      "growth_momentum": "Moderate EV and export growth initiatives are visible.",
+      "analytics_gap": "No specific analytics gap was mentioned, indicating at least basic data capabilities."
+    }
+  },
+  "Ashok Leyland": {
+    "name": "Ashok Leyland",
+    "scores": {
+      "pain_signal_strength": 6,
+      "winnability": 6,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific evidenced pain signals include labor and supply chain disruptions.",
+      "winnability": "No incumbent evidence and active pain signals related to labor and supply chain.",
+      "ev_transition_pressure": "Investments in battery ecosystem and expanding EV ambitions indicate strong EV transition.",
+      "financial_health": "Record profits and revenue growth of 14% YoY indicate strong financial health.",
+      "growth_momentum": "Investment in battery ecosystem and new facility show active capex cycle.",
+      "analytics_gap": "No specific analytics gap was mentioned, indicating at least basic data capabilities."
+    }
+  },
+  "Ather Energy": {
+    "name": "Ather Energy",
+    "scores": {
+      "pain_signal_strength": 9,
+      "winnability": 8,
+      "ev_transition_pressure": 9,
+      "financial_health": 3,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Multiple specific signals - delays in incentives due to supply chain and rare earth magnet export ban.",
+      "winnability": "No incumbent evidence with active supply chain pain signal.",
+      "ev_transition_pressure": "Core business is EV-dependent, focusing on electric scooters and motorcycles.",
+      "financial_health": "Loss-making with net loss of Rs 100 crore in Q4 FY26.",
+      "growth_momentum": "Investing in supply chain resilience and EV product line expansion.",
+      "analytics_gap": "Profile doesn't mention specific analytics capabilities or gaps."
+    }
+  },
+  "Escorts Kubota": {
+    "name": "Escorts Kubota",
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 6,
+      "ev_transition_pressure": 2,
+      "financial_health": 6,
+      "growth_momentum": 4,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific signals found - rising commodity costs and geopolitical tensions affecting supply chain.",
+      "winnability": "No incumbent evidence with supply chain pressure signals.",
+      "ev_transition_pressure": "No direct EV relevance as focus is on tractors and construction equipment.",
+      "financial_health": "Stable with an EBITDA margin of 13.0% in FY25-26.",
+      "growth_momentum": "Moderate investment in supply chain resilience and product line expansion.",
+      "analytics_gap": "Profile doesn't mention specific analytics capabilities or gaps."
+    }
+  },
+  "Force Motors": {
+    "name": "Force Motors",
+    "scores": {
+      "pain_signal_strength": 7,
+      "winnability": 6,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 8,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific evidenced signal in EV transition challenges and supply chain disruptions.",
+      "winnability": "No incumbent evidence with EV transition pressure but unclear analytics capabilities.",
+      "ev_transition_pressure": "Active EV product development with upcoming electric products.",
+      "financial_health": "Strong revenue growth and ROE of 28%.",
+      "growth_momentum": "Significant investment of ₹ 2,000 crore for expansion and modernization.",
+      "analytics_gap": "Profile doesn't mention specific analytics capabilities or gaps."
+    }
+  },
+  "Ola Electric": {
+    "name": "Ola Electric",
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 8,
+      "ev_transition_pressure": 10,
+      "financial_health": 3,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Evidence of supplier disputes and sales-registration mismatches.",
+      "winnability": "No incumbent evidence with multiple active pain signals related to EV.",
+      "ev_transition_pressure": "Core business is EV-dependent with focus on electric two-wheelers and three-wheelers.",
+      "financial_health": "Loss-making with a net loss of ₹18.3b in FY2026.",
+      "growth_momentum": "Plans to launch new products, including an e-scooter with an extended warranty.",
+      "analytics_gap": "Profile doesn't mention specific analytics capabilities or gaps."
+    }
+  },
+  "BEML Ltd": {
+    "name": "BEML Ltd",
+    "scores": {
+      "pain_signal_strength": 2,
+      "winnability": 4,
+      "ev_transition_pressure": 2,
+      "financial_health": 6,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No specific pain signals found in the profile.",
+      "winnability": "No incumbent analytics evidence but also no specific pain signals, reducing winnability.",
+      "ev_transition_pressure": "No EV relevance as focus is on construction, mining, and rail sectors.",
+      "financial_health": "Stable with a positive net profit in FY2025-26.",
+      "growth_momentum": "Moderate growth initiatives in developing indigenous technologies and global expansion.",
+      "analytics_gap": "Profile doesn't mention specific analytics capabilities or gaps."
+    }
+  },
+  "Action Const.Eq.": {
+    "name": "Action Const.Eq.",
+    "scores": {
+      "pain_signal_strength": 3,
+      "winnability": 7,
+      "ev_transition_pressure": 5,
+      "financial_health": 6,
+      "growth_momentum": 8,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Generic supply chain resilience issue related to EV transition.",
+      "winnability": "Mid cap with a generic industry pain signal and no incumbent evidence.",
+      "ev_transition_pressure": "Indirect EV exposure due to construction equipment relevance.",
+      "financial_health": "Moderate growth with projected revenue increase and increased EPS.",
+      "growth_momentum": "Aggressive revenue growth goals and a CAGR of 26% from FY25 to FY27.",
+      "analytics_gap": "No specific mention of an analytics gap, so assume the default score."
+    }
+  },
+  "Olectra Greentec": {
+    "name": "Olectra Greentec",
+    "scores": {
+      "pain_signal_strength": 2,
+      "winnability": 4,
+      "ev_transition_pressure": 9,
+      "financial_health": 7,
+      "growth_momentum": 8,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No specific pain signal found.",
+      "winnability": "No specific pain signal found, resulting in lower winnability.",
+      "ev_transition_pressure": "Core business is heavily EV-dependent, focusing on electric buses.",
+      "financial_health": "Strong revenue growth and profitability trends with a 29% growth rate.",
+      "growth_momentum": "Strong order book and expansion into new product lines like electric trucks.",
+      "analytics_gap": "No specific mention of analytics capabilities or gaps."
+    }
+  },
+  "Ajax Engineering": {
+    "name": "Ajax Engineering",
+    "scores": {
+      "pain_signal_strength": 7,
+      "winnability": 7,
+      "ev_transition_pressure": 5,
+      "financial_health": 4,
+      "growth_momentum": 3,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific supply chain disruption signals related to EV transition.",
+      "winnability": "Small cap with specific pain signals and no evidence of incumbents.",
+      "ev_transition_pressure": "Indirect EV exposure due to the supply chain issues related to construction equipment.",
+      "financial_health": "Stable or modest growth with revenue growth at only 0.4% YoY.",
+      "growth_momentum": "No specific growth initiatives or capex signals found.",
+      "analytics_gap": "No specific mention of analytics capabilities or gaps."
+    }
+  },
+  "SML Mahindra": {
+    "name": "SML Mahindra",
+    "scores": {
+      "pain_signal_strength": 2,
+      "winnability": 4,
+      "ev_transition_pressure": 8,
+      "financial_health": 6,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No specific pain signal found.",
+      "winnability": "No specific pain signal found and no incumbent evidence limits winnability.",
+      "ev_transition_pressure": "Active EV product development within the commercial vehicle market.",
+      "financial_health": "Reported revenue growth and net profit increase, indicating moderate financial health.",
+      "growth_momentum": "Plans to roll out cutting-edge electric models as part of growth initiatives.",
+      "analytics_gap": "No specific mention of analytics capabilities or gaps."
+    }
+  },
+  "VST Till. Tract.": {
+    "name": "VST Till. Tract.",
+    "scores": {
+      "pain_signal_strength": 6,
+      "winnability": 7,
+      "ev_transition_pressure": 8,
+      "financial_health": 4,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific challenges around EV transition, supply chain resilience, and talent crunch.",
+      "winnability": "Small cap with specific pain signals and no evidence of incumbent vendors.",
+      "ev_transition_pressure": "Transition to EV with new-generation EV power tillers and power weeders.",
+      "financial_health": "Mixed financial health with revenue growth but declining net profit.",
+      "growth_momentum": "Plans to strengthen its market position with new EV products.",
+      "analytics_gap": "No specific mention of analytics capabilities or gaps."
+    }
+  },
+  "Samvardhana Motherson": {
+    "name": "Samvardhana Motherson",
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 8,
+      "ev_transition_pressure": 6,
+      "financial_health": 7,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific evidenced signals include supply chain issues and EV transition challenges.",
+      "winnability": "No incumbent evidence and active pain signals related to supply chain and EV transition present.",
+      "ev_transition_pressure": "EV transition challenges indicate active involvement in EV product development.",
+      "financial_health": "Strong financial performance with revenue growth and net profit evidence.",
+      "growth_momentum": "Expansion through acquisition suggests active capex cycle.",
+      "analytics_gap": "No specific analytics gap identified, assuming neutral."
+    }
+  },
+  "Bosch": {
+    "name": "Bosch",
+    "scores": {
+      "pain_signal_strength": 7,
+      "winnability": 4,
+      "ev_transition_pressure": 6,
+      "financial_health": 7,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Supply chain disruptions and job cuts are specific evidenced signals.",
+      "winnability": "No incumbent evidence but no active pain signals fitting XYZ's scope.",
+      "ev_transition_pressure": "Involvement in EV strategy indicates active EV transition.",
+      "financial_health": "Stable financial growth evidenced by revenue growth.",
+      "growth_momentum": "Investment in new technologies and supply chain expansion indicates moderate investment.",
+      "analytics_gap": "No analytics gap identified; assumed neutral positioning."
+    }
+  },
+  "Bharat Forge": {
+    "name": "Bharat Forge",
+    "scores": {
+      "pain_signal_strength": 7,
+      "winnability": 8,
+      "ev_transition_pressure": 6,
+      "financial_health": 7,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Challenges in EV transition and impairment on e-mobility are specific pain signals.",
+      "winnability": "No incumbent evidence with active pain signals in EV transition.",
+      "ev_transition_pressure": "Active EV strategy and investment indicate involvement in EV transition.",
+      "financial_health": "Strong financial health with revenue and profit growth.",
+      "growth_momentum": "Moderate investment with evidence of expansion into new markets.",
+      "analytics_gap": "No specific analytics gap identified; rated neutral."
+    }
+  },
+  "Uno Minda": {
+    "name": "Uno Minda",
+    "scores": {
+      "pain_signal_strength": 2,
+      "winnability": 4,
+      "ev_transition_pressure": 6,
+      "financial_health": 7,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No specific signal found in the profile.",
+      "winnability": "No pain signal means low winnability despite no incumbent evidence.",
+      "ev_transition_pressure": "Involvement in EV strategy and capacity expansion indicates active transition.",
+      "financial_health": "Strong revenue growth and stable financial performance.",
+      "growth_momentum": "Active capex cycle indicated by investment in new technologies.",
+      "analytics_gap": "No explicit analytics gap mentioned, default to neutral."
+    }
+  },
+  "Schaeffler India": {
+    "name": "Schaeffler India",
+    "scores": {
+      "pain_signal_strength": 2,
+      "winnability": 4,
+      "ev_transition_pressure": 7,
+      "financial_health": 7,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No specific signal found in the profile.",
+      "winnability": "No pain signal implies low winnability despite no incumbent evidence.",
+      "ev_transition_pressure": "E-mobility product development and infrastructure expansion indicate strong EV involvement.",
+      "financial_health": "Positive financial health with significant revenue growth.",
+      "growth_momentum": "Moderate to strong growth momentum with specific initiatives in charging infrastructure.",
+      "analytics_gap": "No analytics gap mentioned, assuming neutral."
+    }
+  },
+  "Tube Investments": {
+    "name": "Tube Investments",
+    "scores": {
+      "pain_signal_strength": 2,
+      "winnability": 4,
+      "ev_transition_pressure": 8,
+      "financial_health": 3,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No specific pain signal found in the profile.",
+      "winnability": "No incumbent evidence or specific pain signal found in the profile, so winnability is ≤ 4.",
+      "ev_transition_pressure": "Active EV product development with investment in EV platforms.",
+      "financial_health": "Revenue declined by -8.8% YoY, indicating financial health issues.",
+      "growth_momentum": "Active expansion with an investment of INR 3k crore in EV platforms.",
+      "analytics_gap": "No specific analytics issues mentioned; assume neutral."
+    }
+  },
+  "Sona BLW Precis.": {
+    "name": "Sona BLW Precis.",
+    "scores": {
+      "pain_signal_strength": 6,
+      "winnability": 8,
+      "ev_transition_pressure": 8,
+      "financial_health": 9,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific supply chain issue and EV transition challenges are mentioned.",
+      "winnability": "No incumbent evidence; active XYZ-fit pain signals around supply chain and EV transition.",
+      "ev_transition_pressure": "Active EV product development and joint venture in China.",
+      "financial_health": "Strong financial performance with 47% revenue growth YoY.",
+      "growth_momentum": "Investment in joint venture and EV technology.",
+      "analytics_gap": "No specific analytics issues mentioned; assume neutral."
+    }
+  },
+  "Endurance Tech.": {
+    "name": "Endurance Tech.",
+    "scores": {
+      "pain_signal_strength": 6,
+      "winnability": 8,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "EV transition challenges and supply chain disruptions mentioned.",
+      "winnability": "No incumbent evidence; active XYZ-fit pain signals with supply chain issues.",
+      "ev_transition_pressure": "Active EV strategy with expansion in ABS capacity and new models.",
+      "financial_health": "Consistent revenue growth with 31.1% YoY.",
+      "growth_momentum": "Capex announcement and 4X ABS capacity expansion.",
+      "analytics_gap": "No specific analytics issues mentioned; assume neutral."
+    }
+  },
+  "Exide Inds.": {
+    "name": "Exide Inds.",
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 8,
+      "ev_transition_pressure": 8,
+      "financial_health": 6,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "EV transition challenges, supply chain disruptions, and margin pressure are evidenced.",
+      "winnability": "No incumbent evidence; active XYZ-fit pain signals including margin pressures.",
+      "ev_transition_pressure": "Active EV strategy with new lithium-ion cell production.",
+      "financial_health": "Moderate growth with a 9% YoY increase in revenue.",
+      "growth_momentum": "EV strategy and new automotive battery range 'Epiq'.",
+      "analytics_gap": "No specific analytics issues mentioned; assume neutral."
+    }
+  },
+  "Motherson Wiring": {
+    "name": "Motherson Wiring",
+    "scores": {
+      "pain_signal_strength": 6,
+      "winnability": 8,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "EV transition challenges and supply chain disruptions are mentioned.",
+      "winnability": "No incumbent evidence; active XYZ-fit pain signals with supply chain issues.",
+      "ev_transition_pressure": "Active EV strategy with new plant for EV components.",
+      "financial_health": "Strong financial growth with 23% YoY increase in revenue.",
+      "growth_momentum": "Expansion plans and new plant for EV components.",
+      "analytics_gap": "No specific analytics issues mentioned; assume neutral."
+    }
+  },
+  "ZF Commercial": {
+    "name": "ZF Commercial",
+    "scores": {
+      "pain_signal_strength": 3,
+      "winnability": 4,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 9,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Generic industry pressure with aftermarket evolving beyond parts due to EV era.",
+      "winnability": "No incumbent evidence but lacks specific pain signals.",
+      "ev_transition_pressure": "Focused on EV transition and software-enabled mobility support.",
+      "financial_health": "Revenue grew 6% with a strong EBIT and consistent growth.",
+      "growth_momentum": "Record revenues and focus on EV transition demonstrate aggressive growth.",
+      "analytics_gap": "No specific analytics gap mentioned; neutral score."
+    }
+  },
+  "Craftsman Auto": {
+    "name": "Craftsman Auto",
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 7,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 8,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific supply chain crisis linked to EV transition challenge.",
+      "winnability": "No incumbent evidence and active pain signal present.",
+      "ev_transition_pressure": "Faced with transition challenges impacting supply chain resilience.",
+      "financial_health": "Strong YoY revenue and net profit growth reported.",
+      "growth_momentum": "Strong Q3 FY26 performance indicates active growth.",
+      "analytics_gap": "No specifics; neutral due to lack of evidence."
+    }
+  },
+  "Tenneco Clean": {
+    "name": "Tenneco Clean",
+    "scores": {
+      "pain_signal_strength": 5,
+      "winnability": 5,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Generic EV transition challenge noted without specific signals.",
+      "winnability": "No incumbent evidence but lacks a specific signal; placed mid-score.",
+      "ev_transition_pressure": "Active Clean Air programme related to EV implications.",
+      "financial_health": "Significant revenue and profit growth supported by sustainability focus.",
+      "growth_momentum": "New Clean Air programme and growth in suspension business indicate momentum.",
+      "analytics_gap": "No specific mention; placed neutral for lack of evidence."
+    }
+  },
+  "CIE Automotive": {
+    "name": "CIE Automotive",
+    "scores": {
+      "pain_signal_strength": 0,
+      "winnability": 2,
+      "ev_transition_pressure": 4,
+      "financial_health": 6,
+      "growth_momentum": 4,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No specific pain signal found in the profile.",
+      "winnability": "No specific pain signal and no incumbent evidence; neutral-low.",
+      "ev_transition_pressure": "Indirect exposure to EV as a component supplier.",
+      "financial_health": "Moderate revenue growth indicated on profile; financially stable.",
+      "growth_momentum": "No evidence of aggressive expansion or new initiatives.",
+      "analytics_gap": "Neutral due to no evidence of analytics infrastructure or gap."
+    }
+  },
+  "JK Tyre & Indust": {
+    "name": "JK Tyre & Indust",
+    "scores": {
+      "pain_signal_strength": 6,
+      "winnability": 7,
+      "ev_transition_pressure": 6,
+      "financial_health": 9,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Supply chain disruptions linked to West Asia crisis.",
+      "winnability": "No incumbent evidence and specific external pain signal present.",
+      "ev_transition_pressure": "Engaging in EV strategies by supplying EV-specific tyres.",
+      "financial_health": "Record financial results and consistent growth over five years.",
+      "growth_momentum": "Evidence of new products and an active EV strategy indicates growth.",
+      "analytics_gap": "Profile lacks any explicit statement about data or analytics challenges."
+    }
+  },
+  "Banco Products": {
+    "name": "Banco Products",
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 7,
+      "ev_transition_pressure": 7,
+      "financial_health": 9,
+      "growth_momentum": 8,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Evidence of supply chain disruptions due to West Asian crisis.",
+      "winnability": "No incumbent evidence plus supply chain pain signal with proactive growth strategies.",
+      "ev_transition_pressure": "Proactive EV market entry indicates active transition.",
+      "financial_health": "Strong revenue and profit growth with high ROE.",
+      "growth_momentum": "EV strategy and bonus issue denote active growth initiatives.",
+      "analytics_gap": "No specific analytics gap mentioned, suggesting a neutral score."
+    }
+  },
+  "Asahi India Glas": {
+    "name": "Asahi India Glas",
+    "scores": {
+      "pain_signal_strength": 5,
+      "winnability": 5,
+      "ev_transition_pressure": 5,
+      "financial_health": 8,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Generic pressure from EV transition and local manufacturing challenges.",
+      "winnability": "No active pain signal; thus, winnability remains neutral.",
+      "ev_transition_pressure": "Indirect EV exposure with pressure from transition.",
+      "financial_health": "Consistent revenue and profit growth with solid financial performance.",
+      "growth_momentum": "Expansion of Taloja Float Glass Plant shows moderate investment.",
+      "analytics_gap": "No analytics gap mentioned, so score is neutral."
+    }
+  },
+  "Sansera Enginee.": {
+    "name": "Sansera Enginee.",
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 7,
+      "ev_transition_pressure": 4,
+      "financial_health": 7,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific signal with major client order recall.",
+      "winnability": "No incumbent evidence plus significant pain signal.",
+      "ev_transition_pressure": "No specific mention of active EV initiatives, indirect relevance.",
+      "financial_health": "Moderate growth with significant profit increase.",
+      "growth_momentum": "Plans for significant U.S. order suggest active expansion.",
+      "analytics_gap": "No analytics gap noted, score remains neutral."
+    }
+  },
+  "Minda Corp": {
+    "name": "Minda Corp",
+    "scores": {
+      "pain_signal_strength": 2,
+      "winnability": 4,
+      "ev_transition_pressure": 8,
+      "financial_health": 8,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No specific pain signals found in profile.",
+      "winnability": "No pain signal found, resulting in low winnability.",
+      "ev_transition_pressure": "Active in EV components and partnerships demonstrate strong transition.",
+      "financial_health": "Healthy revenue growth and strategic partnerships.",
+      "growth_momentum": "Joint ventures and partnerships indicate expansion activities.",
+      "analytics_gap": "No specific analytics gap noted; neutral score."
+    }
+  },
+  "Amara Raja Ener.": {
+    "name": "Amara Raja Ener.",
+    "scores": {
+      "pain_signal_strength": 2,
+      "winnability": 4,
+      "ev_transition_pressure": 9,
+      "financial_health": 7,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No specific pain signals found in profile.",
+      "winnability": "No pain signal; thus, winnability remains low.",
+      "ev_transition_pressure": "Core focus on EV batteries and energy solutions indicates critical dependency.",
+      "financial_health": "Revenue growth but slight decline compared to other scores.",
+      "growth_momentum": "Strategic agreements with focus on energy storage facility.",
+      "analytics_gap": "No analytics gap mentioned; neutral score."
+    }
+  },
+  "JBM Auto": {
+    "name": "JBM Auto",
+    "scores": {
+      "pain_signal_strength": 2,
+      "winnability": 4,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No specific pain signals found in profile.",
+      "winnability": "No incumbent vendor evidence or specific pain signal found; mid cap status suggests neutral winnability.",
+      "ev_transition_pressure": "Active focus on scaling electric mobility through integration and technology.",
+      "financial_health": "12.55% revenue growth and strong EBITDA margin indicate financial health.",
+      "growth_momentum": "Growth initiatives include scaling electric mobility indicating moderate investment signals.",
+      "analytics_gap": "No specific analytics gap identified, assumed neutral need for data."
+    }
+  },
+  "Sedemac Mechatro": {
+    "name": "Sedemac Mechatro",
+    "scores": {
+      "pain_signal_strength": 2,
+      "winnability": 4,
+      "ev_transition_pressure": 3,
+      "financial_health": 8,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No specific pain signals found in profile.",
+      "winnability": "No incumbent vendor evidence or specific pain signal found; mid cap status suggests neutral winnability.",
+      "ev_transition_pressure": "Indirect exposure through automotive control systems, but no specific EV transition noted.",
+      "financial_health": "Strong financials with 60.5% revenue growth and 33.79% ROCE.",
+      "growth_momentum": "IPO to fund growth and expand market presence indicates active capex cycle.",
+      "analytics_gap": "No specific analytics gap identified, assumed neutral need for data."
+    }
+  },
+  "MRF": {
+    "name": "MRF",
+    "scores": {
+      "pain_signal_strength": 5,
+      "winnability": 3,
+      "ev_transition_pressure": 6,
+      "financial_health": 7,
+      "growth_momentum": 5,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Generic industry pressures including tumultuous year for automotive industry and EV transition challenges.",
+      "winnability": "Evidence of generic industry pressure without specific pain signal provides a low winnability score.",
+      "ev_transition_pressure": "Developing new tires for EVs indicates active EV product development.",
+      "financial_health": "14% growth with reasonable profitability trends indicates stable financial health.",
+      "growth_momentum": "Focus on new tire development for EVs suggests moderate investment signals.",
+      "analytics_gap": "No specific analytics gap identified, assumed neutral need for data."
+    }
+  },
+  "Balkrishna Inds": {
+    "name": "Balkrishna Inds",
+    "scores": {
+      "pain_signal_strength": 5,
+      "winnability": 3,
+      "ev_transition_pressure": 3,
+      "financial_health": 6,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Generic supply chain challenges related to EV and car sales fluctuations.",
+      "winnability": "Evidence of generic industry pressure without specific pain signal provides a low winnability score.",
+      "ev_transition_pressure": "Indirect pressures from EV adoption and global supply chain challenges but no direct EV business focus.",
+      "financial_health": "7% growth in revenue with EPS of ₹64.30 indicates stable performance.",
+      "growth_momentum": "Upcoming production of giant tires and strategic initiatives suggest moderate growth momentum.",
+      "analytics_gap": "No specific analytics gap identified, assumed neutral need for data."
+    }
+  },
+  "Apollo Tyres": {
+    "name": "Apollo Tyres",
+    "scores": {
+      "pain_signal_strength": 3,
+      "winnability": 3,
+      "ev_transition_pressure": 5,
+      "financial_health": 4,
+      "growth_momentum": 5,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Generic industry pressures such as global tyre shortages and supply disruptions; no company-specific evidence.",
+      "winnability": "Evidence of generic industry pressure without specific pain signal provides a low winnability score.",
+      "ev_transition_pressure": "Increased focus on EVs for last mile deliveries indicates indirect exposure.",
+      "financial_health": "Financial performance is moderate with modest growth and net profit indicators.",
+      "growth_momentum": "Cost optimization and expansion in Indian and European markets indicate moderate investment signals.",
+      "analytics_gap": "No specific analytics gap identified, assumed neutral need for data."
+    }
+  },
+  "Belrise Industri": {
+    "name": "Belrise Industri",
+    "scores": {
+      "pain_signal_strength": 6,
+      "winnability": 8,
+      "ev_transition_pressure": 8,
+      "financial_health": 9,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "There are specific pain signals with EV transition challenges affecting their auto supply chain resilience.",
+      "winnability": "No incumbent evidence plus active XYZ-fit pain signal regarding EV transition.",
+      "ev_transition_pressure": "The company is actively focusing on electric vehicle components, indicating a transition pressure.",
+      "financial_health": "Strong financial performance with a 49% revenue increase and a 575% profits jump.",
+      "growth_momentum": "Company is targeting a shift towards electric vehicles and is merging group firms to scale operations.",
+      "analytics_gap": "No specific analytics gap mentioned, assignments as neutral."
+    }
+  },
+  "Sundram Fasten.": {
+    "name": "Sundram Fasten.",
+    "scores": {
+      "pain_signal_strength": 5,
+      "winnability": 8,
+      "ev_transition_pressure": 6,
+      "financial_health": 9,
+      "growth_momentum": 9,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "While there are industry pressures regarding EV orders, no specific signals found.",
+      "winnability": "No incumbent evidence and Sundram has an active EV transition initiative.",
+      "ev_transition_pressure": "Indirect EV exposure shown by winning $250m in orders in the EV space.",
+      "financial_health": "Strong financials with significant YoY growth and net profit gains.",
+      "growth_momentum": "Aggressive expansion plans with Rs 1,000 crores investment in EV capacity.",
+      "analytics_gap": "No specific analytics gap mentioned, thus neutral."
+    }
+  },
+  "SPR Auto Technologies": {
+    "name": "SPR Auto Technologies",
+    "scores": {
+      "pain_signal_strength": 2,
+      "winnability": 4,
+      "ev_transition_pressure": 6,
+      "financial_health": 7,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No specific pain signals were identified for SPR Auto.",
+      "winnability": "No specific pain signals or incumbent evidence limit winnability.",
+      "ev_transition_pressure": "Transition pressure from a strategic pivot towards EVs.",
+      "financial_health": "Showed strong financial performance with a significant net profit.",
+      "growth_momentum": "Moderate growth via strategic rebranding and potential EV partnerships.",
+      "analytics_gap": "No analytics gaps described, thus rated neutral."
+    }
+  },
+  "Gabriel India": {
+    "name": "Gabriel India",
+    "scores": {
+      "pain_signal_strength": 2,
+      "winnability": 4,
+      "ev_transition_pressure": 6,
+      "financial_health": 8,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No specific pain signals found in the profile.",
+      "winnability": "No specific pain signals to improve winnability.",
+      "ev_transition_pressure": "Company is actively exploring partnerships for EV sector demands.",
+      "financial_health": "Strong YoY growth and an increase in net income.",
+      "growth_momentum": "Increases in manufacturing capacity indicative of moderate growth.",
+      "analytics_gap": "No explicit analytics gap mentioned, thus rated neutral."
+    }
+  },
+  "CEAT": {
+    "name": "CEAT",
+    "scores": {
+      "pain_signal_strength": 5,
+      "winnability": 8,
+      "ev_transition_pressure": 5,
+      "financial_health": 8,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Evidence indicates industry-wide pressures due to potential demand shrinkage.",
+      "winnability": "No incumbent evidence and some industry pressures make it fairly winnable.",
+      "ev_transition_pressure": "Focus on EV tyres, indicating indirect exposure to EV transition.",
+      "financial_health": "Robust financials with good revenue growth and profitability.",
+      "growth_momentum": "Moderate growth initiatives with planned capacity increases.",
+      "analytics_gap": "No specific analytics gap mentioned, so scored neutral."
+    }
+  },
+  "Ramkrishna Forg.": {
+    "name": "Ramkrishna Forg.",
+    "scores": {
+      "pain_signal_strength": 1,
+      "winnability": 3,
+      "ev_transition_pressure": 7,
+      "financial_health": 7,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No pain signals specified for Ramkrishna Forgings.",
+      "winnability": "No specific pain signal found; winnability is low due to no active signals.",
+      "ev_transition_pressure": "Venturing into aluminum forging for EV markets suggests active transition.",
+      "financial_health": "Strong revenue growth of 31.9% YoY indicates solid financial health.",
+      "growth_momentum": "Secured a large North American contract and venturing into new product segments.",
+      "analytics_gap": "No analytics gap information provided, so scored neutral."
+    }
+  },
+  "Pricol Ltd": {
+    "name": "Pricol Ltd",
+    "scores": {
+      "pain_signal_strength": 6,
+      "winnability": 6,
+      "ev_transition_pressure": 7,
+      "financial_health": 7,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific supply chain issues mentioned, impacting revenue targets.",
+      "winnability": "Supply chain pain signal indicates a moderate opportunity for XYZ.",
+      "ev_transition_pressure": "Expanding product lines in new energy vehicles and sensors indicates active transition.",
+      "financial_health": "Revenue and PAT have both increased significantly.",
+      "growth_momentum": "Increasing new energy vehicle sales and product line expansion suggest active growth.",
+      "analytics_gap": "No specific analytics gap information provided; likely to have basic infrastructure."
+    }
+  },
+  "Fiem Industries": {
+    "name": "Fiem Industries",
+    "scores": {
+      "pain_signal_strength": 6,
+      "winnability": 6,
+      "ev_transition_pressure": 6,
+      "financial_health": 7,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Challenges in EV transition affecting supply chain resilience.",
+      "winnability": "EV transition issues present a strong target for XYZ.",
+      "ev_transition_pressure": "Engaging with major EV OEMs indicates EV exposure.",
+      "financial_health": "Revenue and profit growth figures suggest strong financials.",
+      "growth_momentum": "Focus on next-generation product development shows forward momentum.",
+      "analytics_gap": "No specific analytics gap; potentially basic operational data use."
+    }
+  },
+  "Jamna Auto Inds.": {
+    "name": "Jamna Auto Inds.",
+    "scores": {
+      "pain_signal_strength": 6,
+      "winnability": 6,
+      "ev_transition_pressure": 5,
+      "financial_health": 7,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "EV transition challenges with supply chain resilience noted.",
+      "winnability": "Supply chain pressure provides an entry point for consulting.",
+      "ev_transition_pressure": "Some involvement with EV preparation, but not a core focus.",
+      "financial_health": "Revenue and net income both showing healthy growth.",
+      "growth_momentum": "New plant established and export market strategy indicates growth.",
+      "analytics_gap": "No analytics gap mentioned; operations likely have basic analytics infrastructure."
+    }
+  },
+  "L G Balakrishnan": {
+    "name": "L G Balakrishnan",
+    "scores": {
+      "pain_signal_strength": 6,
+      "winnability": 6,
+      "ev_transition_pressure": 4,
+      "financial_health": 6,
+      "growth_momentum": 5,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Exports and EV sales underperformance suggests specific challenges.",
+      "winnability": "Export and EV sales issues present an opportunity for analytics solutions.",
+      "ev_transition_pressure": "Some EV strategy investment, suggesting possible engagement but not core.",
+      "financial_health": "Revenue growth is consistent, but less aggressive than others.",
+      "growth_momentum": "Investment in EV strategy noted but moderate compared to others.",
+      "analytics_gap": "No detailed analytics insights suggest a neutral status."
+    }
+  },
+  "Lumax Industries": {
+    "name": "Lumax Industries",
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 6,
+      "ev_transition_pressure": 7,
+      "financial_health": 7,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Multiple specific signals regarding supply chain crisis due to EV transition.",
+      "winnability": "No incumbent evidence and active pain signal in the supply chain.",
+      "ev_transition_pressure": "Facing pressure due to EV supply chain challenges.",
+      "financial_health": "Strong revenue and profit growth with no negative financial indicators.",
+      "growth_momentum": "Focus on green energy adoption and aftermarket strategy shows investment.",
+      "analytics_gap": "No specific indication of analytics gap or existing data infrastructure."
+    }
+  },
+  "Sharda Motor": {
+    "name": "Sharda Motor",
+    "scores": {
+      "pain_signal_strength": 9,
+      "winnability": 6,
+      "ev_transition_pressure": 7,
+      "financial_health": 8,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Multiple strong signals including shutdown and business threat from EVs.",
+      "winnability": "No evidence of incumbents and active business threat from EVs as a pain signal.",
+      "ev_transition_pressure": "Business threat from EV transition due to reliance on exhaust systems.",
+      "financial_health": "Strong financials with high ROCE and net profit growth.",
+      "growth_momentum": "Joint venture to enhance capabilities indicates active investment.",
+      "analytics_gap": "No specific analytics gap identified; lacks AI/ML specifics."
+    }
+  },
+  "NRB Bearings": {
+    "name": "NRB Bearings",
+    "scores": {
+      "pain_signal_strength": 7,
+      "winnability": 6,
+      "ev_transition_pressure": 7,
+      "financial_health": 4,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific challenges related to sustainable materials amidst EV transition.",
+      "winnability": "No incumbents mentioned and facing EV-related pressures.",
+      "ev_transition_pressure": "Active consideration of sustainable materials indicates EV transition focus.",
+      "financial_health": "Moderate financial health with lower growth rate compared to peers.",
+      "growth_momentum": "Plan for capacity enhancement suggests investment activity.",
+      "analytics_gap": "No evidence of analytics capabilities or gaps, indicating a neutral score."
+    }
+  },
+  "Sandhar Tech": {
+    "name": "Sandhar Tech",
+    "scores": {
+      "pain_signal_strength": 7,
+      "winnability": 5,
+      "ev_transition_pressure": 8,
+      "financial_health": 6,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "EV transition challenges and market volatility present specific pain points.",
+      "winnability": "No incumbents mentioned; transition challenges signal potential opportunities.",
+      "ev_transition_pressure": "Active EV product developments and plans for three-wheeler EVs.",
+      "financial_health": "Stable growth but not significantly strong ROCE or net profit details.",
+      "growth_momentum": "Strong commitment to EV product line and investment in new manufacturing.",
+      "analytics_gap": "Neutral due to lack of data on existing analytics capacity or gaps."
+    }
+  },
+  "JTEKT India": {
+    "name": "JTEKT India",
+    "scores": {
+      "pain_signal_strength": 7,
+      "winnability": 5,
+      "ev_transition_pressure": 7,
+      "financial_health": 5,
+      "growth_momentum": 5,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Supply disruptions recorded due to the EV transition.",
+      "winnability": "No incumbent evidence and moderate level of pain signal.",
+      "ev_transition_pressure": "Indirect EV exposure with market expansion for automotive components.",
+      "financial_health": "Stable revenue growth but overall negative growth trend over three years.",
+      "growth_momentum": "Domestic market expansion is moderate, reflecting a balanced investment.",
+      "analytics_gap": "No explicit analytics gap identified; results in a neutral score."
+    }
+  },
+  "Piaggio Vehicles India": {
+    "name": "Piaggio Vehicles India",
+    "scores": {
+      "pain_signal_strength": 2,
+      "winnability": 4,
+      "ev_transition_pressure": 6,
+      "financial_health": 4,
+      "growth_momentum": 4,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No specific pain signals identified for Piaggio Vehicles India in the profile.",
+      "winnability": "No specific pain signal found in the profile; hence, winnability capped at 4.",
+      "ev_transition_pressure": "Piaggio is expanding its electric vehicle lineup and growing its electric three-wheeler fleet.",
+      "financial_health": "Revenue showed modest growth and a decline in early FY 2026; indicating moderate financial health.",
+      "growth_momentum": "Piaggio's current growth initiatives focus on EV expansion but lack aggressive capital expenditure signals.",
+      "analytics_gap": "No specific analytics gaps or evidence of advanced analytics capability mentioned; assume neutral position."
+    }
+  },
+  "Mercedes-Benz India": {
+    "name": "Mercedes-Benz India",
+    "scores": {
+      "pain_signal_strength": 9,
+      "winnability": 6,
+      "ev_transition_pressure": 6,
+      "financial_health": 6,
+      "growth_momentum": 4,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Multiple recalls in 2025 due to fire risks and vehicle safety concerns show significant pain.",
+      "winnability": "With specific pain signal and no evidence of incumbent analytics vendors, winnability is scored as 6.",
+      "ev_transition_pressure": "The company offers electric vehicles such as EQS but lacks a distinct EV strategy.",
+      "financial_health": "Record sales and revenue exceeding ₹1,000 Cr indicate stable financial health.",
+      "growth_momentum": "Expansion focus on luxury vehicle offerings but no aggressive capex signals provided.",
+      "analytics_gap": "No specific analytics gaps reported or evidence of advanced analytics in the profile."
+    }
+  },
+  "Honda Cars India": {
+    "name": "Honda Cars India",
+    "scores": {
+      "pain_signal_strength": 9,
+      "winnability": 6,
+      "ev_transition_pressure": 8,
+      "financial_health": 3,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Multiple signals of EV transition challenges and annual losses evidenced in the profile.",
+      "winnability": "Specific pain signals without incumbent vendors noted, giving a score of 6.",
+      "ev_transition_pressure": "Actively expanding EV offerings and facing transition challenges.",
+      "financial_health": "Annual losses and reassessment of EV models reflect declining financial performance.",
+      "growth_momentum": "Plans for six new models and aiming for double-digit growth evidence moderate growth momentum.",
+      "analytics_gap": "The profile does not mention any analytics infrastructure or gaps."
+    }
+  },
+  "Toyota Kirloskar Motor": {
+    "name": "Toyota Kirloskar Motor",
+    "scores": {
+      "pain_signal_strength": 6,
+      "winnability": 4,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 9,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "A voluntary recall campaign indicates specific, but not multiple, pain signals.",
+      "winnability": "No multiple pain signals found, and no incumbent vendor evidence affects winnability.",
+      "ev_transition_pressure": "Plans to expand in vehicles and EVs, indicating transition towards EV relevance.",
+      "financial_health": "Strong profit and growth rate of 28% with evidence for robust financial health.",
+      "growth_momentum": "Aggressive capex with three new assembly plants planned in India suggests strong growth momentum.",
+      "analytics_gap": "The profile does not indicate explicit analytics gaps; neutral assumption."
+    }
+  },
+  "Renault Nissan Automotive India": {
+    "name": "Renault Nissan Automotive India",
+    "scores": {
+      "pain_signal_strength": 9,
+      "winnability": 6,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Multiple structural changes with Renault buying Nissan's stake indicate significant pain.",
+      "winnability": "Substantial operational changes but no incumbent involvement noted, providing winnability of 6.",
+      "ev_transition_pressure": "Active investment in new vehicles, including EVs, shows ongoing EV transition.",
+      "financial_health": "Strong revenue growth, but internal joint venture changes present uncertainty.",
+      "growth_momentum": "Investment of INR 5300-cr and plans for new models showcase strong growth momentum.",
+      "analytics_gap": "No details on analytics capabilities or gaps; hence a neutral score."
+    }
+  },
+  "Stellantis India": {
+    "name": "Stellantis India",
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 6,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 4,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific evidenced signal with Stellantis planning €22.2bn in charges amid EV strategy reset.",
+      "winnability": "Active XYZ-fit pain signal (EV strategy reset) with no incumbent evidence.",
+      "ev_transition_pressure": "Active EV transition with significant strategic focus.",
+      "financial_health": "Reports indicate a return to growth, with net revenues of €153.5 billion.",
+      "growth_momentum": "Strategic business reset but no aggressive expansion evidence mentioned.",
+      "analytics_gap": "No specific analytics gap mentioned; thus scored neutral."
+    }
+  },
+  "Yamaha Motor India": {
+    "name": "Yamaha Motor India",
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 6,
+      "ev_transition_pressure": 6,
+      "financial_health": 5,
+      "growth_momentum": 4,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific evidenced signal with recall of over 3 lakh hybrid scooters due to brake issues.",
+      "winnability": "Active XYZ-fit pain signal (recall) with no incumbent evidence.",
+      "ev_transition_pressure": "Active development of hybrid models indicates EV transition.",
+      "financial_health": "Stable with revenue growth of 13.2%, but slight overall revenue decline.",
+      "growth_momentum": "Moderate product expansion signals but no aggressive capex mentioned.",
+      "analytics_gap": "No specific analytics gaps identified; scored neutral."
+    }
+  },
+  "Suzuki Motorcycle India": {
+    "name": "Suzuki Motorcycle India",
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 6,
+      "ev_transition_pressure": 6,
+      "financial_health": 7,
+      "growth_momentum": 5,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific evidenced signal with recall of nearly 4 lakh vehicles for safety concerns.",
+      "winnability": "Active XYZ-fit pain signal (recall) with no incumbent evidence.",
+      "ev_transition_pressure": "Transition to electric mobility in focus indicates EV transition.",
+      "financial_health": "Generated strong revenue growth and sales increase.",
+      "growth_momentum": "Moderate expansion signals identified.",
+      "analytics_gap": "No specific analytics gaps identified; scored neutral."
+    }
+  },
+  "Lucas TVS": {
+    "name": "Lucas TVS",
+    "scores": {
+      "pain_signal_strength": 6,
+      "winnability": 7,
+      "ev_transition_pressure": 5,
+      "financial_health": 6,
+      "growth_momentum": 5,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific evidenced signal around challenges transitioning to EV affecting supply chain resilience.",
+      "winnability": "XYZ-fit pain signal (EV transition) with no incumbent evidence.",
+      "ev_transition_pressure": "Indirect EV exposure as a supplier but challenges noted.",
+      "financial_health": "Achieved revenue growth of 11% from the previous year.",
+      "growth_momentum": "Moderate expansion of product portfolio noted.",
+      "analytics_gap": "No specific analytics gaps identified; scored neutral."
+    }
+  },
+  "Tata AutoComp Systems": {
+    "name": "Tata AutoComp Systems",
+    "scores": {
+      "pain_signal_strength": 6,
+      "winnability": 7,
+      "ev_transition_pressure": 5,
+      "financial_health": 8,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Specific evidenced signal around integration challenges after acquisitions and joint ventures.",
+      "winnability": "XYZ-fit pain signal (integration challenges) with no incumbent evidence.",
+      "ev_transition_pressure": "Indirect EV exposure through focus on EV-related technologies.",
+      "financial_health": "Strong financial performance with high revenue and projected growth.",
+      "growth_momentum": "Strong growth initiatives including expansion into EV technologies.",
+      "analytics_gap": "No specific analytics gaps identified; scored neutral."
+    }
+  },
+  "Continental Automotive India": {
+    "name": "Continental Automotive India",
+    "scores": {
+      "pain_signal_strength": 6,
+      "winnability": 7,
+      "ev_transition_pressure": 7,
+      "financial_health": 5,
+      "growth_momentum": 6,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Strong signal from warranty claims affecting outlook.",
+      "winnability": "No incumbent evidence and pain signal related to warranty issues.",
+      "ev_transition_pressure": "Investing in EV technology indicates active transition.",
+      "financial_health": "Revenue stable but unspecified growth momentum.",
+      "growth_momentum": "Realignment and EV strategy initiatives underway.",
+      "analytics_gap": "No specific analytics gap mentioned."
+    }
+  },
+  "Aptiv India": {
+    "name": "Aptiv India",
+    "scores": {
+      "pain_signal_strength": 6,
+      "winnability": 4,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 5,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Company-specific cost-saving measures due to EV transition issues.",
+      "winnability": "No specific pain signal beyond industry challenges.",
+      "ev_transition_pressure": "Heavily invested in software for connected and EV technologies.",
+      "financial_health": "Strong financial performance with significant revenue.",
+      "growth_momentum": "Moderate growth with focus on expansions.",
+      "analytics_gap": "No specific analytics gap mentioned."
+    }
+  },
+  "Denso India": {
+    "name": "Denso India",
+    "scores": {
+      "pain_signal_strength": 6,
+      "winnability": 5,
+      "ev_transition_pressure": 8,
+      "financial_health": 7,
+      "growth_momentum": 7,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Pressure from ICE-to-EV transition challenges.",
+      "winnability": "Ongoing revenue doubling goals amidst transition challenges.",
+      "ev_transition_pressure": "Plans to double revenues focusing on EV market growth.",
+      "financial_health": "Record revenue and plans for strong ROE.",
+      "growth_momentum": "Investment in new plant and growth aligned with CORE 2030.",
+      "analytics_gap": "No specific analytics gap mentioned."
+    }
+  },
+  "Delphi-TVS Technologies": {
+    "name": "Delphi-TVS Technologies",
+    "scores": {
+      "pain_signal_strength": 2,
+      "winnability": 4,
+      "ev_transition_pressure": 3,
+      "financial_health": 5,
+      "growth_momentum": 4,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "No specific signal found.",
+      "winnability": "No specific pain signal beyond generic industry challenges.",
+      "ev_transition_pressure": "Indirect exposure through common rail products.",
+      "financial_health": "Stable financials with significant revenue.",
+      "growth_momentum": "Plans for capital expansion noted.",
+      "analytics_gap": "No specific analytics gap mentioned."
+    }
+  },
+  "Faurecia India": {
+    "name": "Faurecia India",
+    "scores": {
+      "pain_signal_strength": 8,
+      "winnability": 7,
+      "ev_transition_pressure": 5,
+      "financial_health": 4,
+      "growth_momentum": 5,
+      "analytics_gap": 4
+    },
+    "reasoning": {
+      "pain_signal_strength": "Strong multiple signals from restructuring and EV manufacturing issues.",
+      "winnability": "Restructuring and market volatility indicate potential in analytics engagement.",
+      "ev_transition_pressure": "Stalled EV manufacturing impact indicates indirect exposure.",
+      "financial_health": "Lower revenue generation compared to peers.",
+      "growth_momentum": "Aligned with Forvia group strategies impacting growth momentum.",
+      "analytics_gap": "No specific analytics gap mentioned."
+    }
+  }
+}
