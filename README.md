@@ -39,6 +39,9 @@ Subsequent runs: under 2 minutes — all intermediate outputs cached to Drive, c
 
 > **Naming convention** — S1-Scout uses a unified "Core/Engine" taxonomy across all stages. Each name pairs a functional role with a modular suffix, making the pipeline instantly scannable and each component's purpose self-evident.
 
+![S1-Scout Architecture](s1_scout_architecture.svg)
+![S1-Scout Agent Orchestration](s1_scout_agent_orchestration.svg)
+
 ---
 
 ## Tools & Stack
