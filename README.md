@@ -79,7 +79,7 @@ Cap-tier modifier: `mid-cap +2pts` (evidence of decision-making agility without 
 
 Screened from listed stocks across NSE/BSE automotive sub-industries, ACMA member directories, and SIAM OEM membership.
 
-- **Raw universe:** 136 companies scraped
+- **Raw universe:** Gathered 220+ companies scraped and filtered 136 companies using Mcap
 - **Active universe:** 75 companies (post deduplication + active filter)
 - **Top 15 prospects:** 5 OEM · 5 Tier-1 Supplier · 5 Component — minimum 3 private companies guaranteed via two-pass selection
 
