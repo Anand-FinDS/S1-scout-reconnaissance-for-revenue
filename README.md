@@ -1,15 +1,11 @@
 # S1-Scout: Reconnaissance for Revenue
 ### AI Sales Intelligence Agent for XYZ Analytics Consulting
-
-> Hackathon Submission | Indian Automotive Market | July 2026
+> Hackathon Submission · Indian Automotive Market · July 2026
 
 S1-Scout automates the top of XYZ Analytics Consulting's B2B sales funnel.
-It researches the Indian automotive industry, identifies high-potential OEMs,
-Tier-1 suppliers, and component manufacturers, and maps each company's
-business challenges to the most relevant consulting solution —
-**Warranty Analytics**, **Supply-Chain Risk Prediction**, or
-**Dealer & Field Service Intelligence** — grounded in the official
-Product & Solutions Handbook via RAG.
+It researches the Indian automotive industry, scores a universe of 75 companies across six intelligence dimensions, and maps each company's business challenges to the most relevant consulting solution —
+**Warranty Analytics**, **Supply-Risk AI**, or **Dealer & Field Service Intelligence** —
+grounded in the official Product & Solutions Handbook via RAG.
 
 ---
 
@@ -17,49 +13,108 @@ Product & Solutions Handbook via RAG.
 
 1. Open `S1_Scout_Sales_Intelligence_Agent.ipynb` in Google Colab
 2. Add secrets in Colab (🔑 left sidebar):
+   - `OPENAI_API_KEY` — from [platform.openai.com](https://platform.openai.com)
    - `GROQ_API_KEY` — from [console.groq.com](https://console.groq.com)
    - `SERPER_API_KEY` — from [serper.dev](https://serper.dev)
-3. Upload `XYZ_Analytics_Consulting_Handbook.pdf` to `My Drive/S1 Scout/`
+3. Upload `XYZ_Analytics_Consulting_Product_Solutions_Handbook.pdf` to `My Drive/S1 Scout/`
 4. **Runtime → Run All**
 
-Full run time: ~20 minutes. All intermediate outputs cached to Drive —
-re-runs skip completed stages automatically.
+First run: ~45 minutes (scraping + profiling + scoring).
+Subsequent runs: under 2 minutes — all intermediate outputs cached to Drive, completed stages skipped automatically.
 
 ---
 
 ## Pipeline Architecture
-| Stage | Name | Tools | Output |
-|---|---|---|---|
-| 0 | Knowledge Layer | pypdf · ChromaDB | Handbook RAG index (49 chunks, in-memory) |
-| 1 | Market Research Agent | Serper · Groq | Industry report + 28-company long-list with pain signals |
-| 2 | Company Research Agent | Serper · Groq | Structured profiles (overview · plants · financials · news) |
-| 3 | Prospect Prioritization | Groq only | Top 12 shortlist — 4 OEM · 4 Tier-1 · 4 Component |
-| 4 | Solution Mapping ⭐ | ChromaDB RAG · Groq | Handbook-cited recommendations per company |
-| 5 | Report Generator | — | `S1_Scout_Final_Report.md` (all 4 deliverables) |
 
-![S1-Scout Architecture](s1_scout_architecture.svg)
+| Stage | Name | Agent | Tools | Output |
+|---|---|---|---|---|
+| 0 | BaseCore Initialization | — | pdfplumber · ChromaDB | Handbook RAG index · API config |
+| D | SectorScan Engine | Web Scraper | BeautifulSoup · Screener.in | 75-company active universe |
+| 1 | TriCore Intelligence Stack | Market Research Analyst | Serper · pdfplumber · GPT-4o | `industry_report.md` · `ibef_baseline.json` |
+| 2 | IntelCore Analyzer | Company Intelligence Analyst | Serper · GPT-4o | `candidate_longlist.json` (75 profiles · 6 dimensions) |
+| 3 | Sentinel Scoring Unit | S1-Scout Sentinel | GPT-4o · LLaMA fallback | `company_scores.json` · `top_prospects.json` (Top 15) |
+| 4 | AlignForce Engine | Solution Mapping Consultant | `handbook_search` RAG · GPT-4o | `solution_mappings.json` (handbook-cited) |
+| 5 | VizCore Module | — | matplotlib | `chart_scorecard.png` · `chart_matrix.png` · `chart_breakdown.png` |
+| 6 | StoryCore Engine | — | — | `S1_Scout_Final_Report.md` |
+
+> **Naming convention** — S1-Scout uses a unified "Core/Engine" taxonomy across all stages. Each name pairs a functional role with a modular suffix, making the pipeline instantly scannable and each component's purpose self-evident.
+
+---
 
 ## Tools & Stack
 
 | Category | Tool |
 |---|---|
-| Agent Framework | CrewAI + LiteLLM |
-| LLM | Groq `llama-3.3-70b-versatile` (free tier) |
-| Web Search | Serper API (Google, free tier) |
+| Agent Framework | CrewAI 1.14 + LiteLLM |
+| LLM — Primary | OpenAI `gpt-4o` |
+| LLM — Fallback | Groq `meta-llama/llama-4-scout-17b-16e-instruct` |
+| LLM — Third tier | Groq `llama-3.3-70b-versatile` (500K TPD) |
+| Web Search | Serper API |
 | RAG / Vector Store | ChromaDB (in-memory) |
-| Embeddings | MiniLM-L6-v2 (via ChromaDB default) |
-| PDF Extraction | pypdf |
+| Embeddings | `all-MiniLM-L6-v2` via sentence-transformers |
+| PDF Extraction | pdfplumber |
+| Visualisation | matplotlib |
 | Environment | Google Colab + Google Drive |
 
 ---
 
+## Scoring Model — Sentinel Dimensions
+
+Six weighted dimensions drive the Sentinel score (0–100):
+
+| Dimension | Weight | What it measures |
+|---|---|---|
+| Pain Signal Strength | 25% | Evidence of active operational pain from public sources |
+| Winnability | 20% | No confirmed incumbent analytics vendor + XYZ-fit pain |
+| EV Transition Pressure | 20% | Exposure to EV disruption driving analytics urgency |
+| Financial Health | 15% | Ability to fund a consulting engagement |
+| Growth Momentum | 10% | M&A, capex, expansion signals |
+| Analytics Gap | 10% | Operational data exists but no ML/AI layer yet |
+
+Cap-tier modifier: `mid-cap +2pts` (evidence of decision-making agility without in-house data science scale).
+
+---
+
 ## Company Universe
-Screened from 210+ listed stocks across 34 Moneycontrol sub-industries,
-1,000+ ACMA members, and SIAM OEM membership.
-Final universe: 52 companies tagged by segment, sub-vertical, cluster, and cap tier.
+
+Screened from listed stocks across NSE/BSE automotive sub-industries, ACMA member directories, and SIAM OEM membership.
+
+- **Raw universe:** 136 companies scraped
+- **Active universe:** 75 companies (post deduplication + active filter)
+- **Top 15 prospects:** 5 OEM · 5 Tier-1 Supplier · 5 Component — minimum 3 private companies guaranteed via two-pass selection
+
+---
+
+## Key Design Decisions
+
+- **Anti-fabrication rule** — every pain signal requires a Serper source URL or is flagged `no specific signal found`
+- **Evidence-based winnability** — companies penalised only when an incumbent analytics vendor is confirmed in public data, not assumed by size
+- **Private company floor** — two-pass selection ensures minimum 3 private companies in Top 15
+- **Tri-source market intelligence** — IBEF PDFs + live Serper queries + SIAM FY2026 actuals fused by GPT-4o to prevent hallucination on headline numbers
+- **Cache-first design** — every stage persists JSON to Drive; re-running is instant
+
+---
 
 ## Known Limitations
+
 - Web data is point-in-time; financial figures are approximate from public snippets
-- Groq free tier (12k TPM) requires batching and rate-limit handling
-- ChromaDB index rebuilds on every Colab runtime (~30 sec)
-- Large-cap companies score low on winnability by design (in-house DS teams)
+- Groq free tier requires rate-limit handling — fallback chain (GPT-4o → LLaMA-4-Scout → LLaMA-3.3-70b) manages this automatically
+- ChromaDB index rebuilds on every Colab runtime restart (~30 sec)
+- Stage 1 market report uses LLM-as-judge synthesis; a disclaimer is included in the notebook
+- Private company profiles have thinner public data — pain signal confidence is lower by nature
+
+---
+
+## Output Files
+
+| File | Description |
+|---|---|
+| `industry_report.md` | Indian automotive market synthesis (EV, supply chain, regulatory) |
+| `candidate_longlist.json` | 75 company profiles with 6-dimension intelligence |
+| `company_scores.json` | Sentinel scores with dimension breakdown + reasoning |
+| `top_prospects.json` | Final Top 15 with scores, segment, cap tier |
+| `solution_mappings.json` | Per-company solution routing with handbook citations |
+| `chart_scorecard.png` | Top 15 ranked bar chart |
+| `chart_matrix.png` | Opportunity matrix (score vs EV pressure) |
+| `chart_breakdown.png` | Dimension score breakdown for Top 15 |
+| `S1_Scout_Final_Report.md` | Consultant-grade sales intelligence report |
