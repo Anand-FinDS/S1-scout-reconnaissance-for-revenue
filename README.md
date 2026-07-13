@@ -102,6 +102,8 @@ Screened from listed stocks across NSE/BSE automotive sub-industries, ACMA membe
 - ChromaDB index rebuilds on every Colab runtime restart (~30 sec)
 - Stage 1 market report uses LLM-as-judge synthesis; a disclaimer is included in the notebook
 - Private company profiles have thinner public data — pain signal confidence is lower by nature
+- Serper free tier (2,500 queries) — Stage 2 consumes ~150 queries for 75 companies; full pipeline uses ~200 total. Approaching the limit will surface silent empty results, not errors — monitor usage at serper.dev
+- Serper results taken as-is — no secondary validation of source credibility or recency. Pain signals reflect whatever Google surfaces at query time. Future pipeline: cross-validate against company filings (BSE/NSE announcements), LinkedIn signals, or a dedicated news API (NewsAPI / Refinitiv)
 
 ---
 
