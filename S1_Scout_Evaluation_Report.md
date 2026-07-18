@@ -181,6 +181,7 @@ No factual inaccuracies identified. All claims were verifiable against public da
 ---
 
 *Evaluated using RAGAS framework metrics and standard Information Retrieval confusion matrix against verified ground truth from Ather Energy FY26 financials, IPO disclosures, and supply chain intelligence from public corporate filings.*
+
 ---
 ## Stellantis India (Private) — Sample Profile Assessment
 **Evaluation Date:** July 2026 | **Evaluator:** Google AI (Gemini) cross-referenced against Stellantis NV global filings, India unit disclosures, and automotive industry records
