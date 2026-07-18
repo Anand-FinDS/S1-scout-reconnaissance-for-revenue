@@ -91,7 +91,7 @@ S1-Scout's intelligence report on Ola Electric was independently fact-checked by
 
 *Evaluated using RAGAS framework metrics and standard Information Retrieval confusion matrix against verified ground truth from Ola Electric Q4 FY26 financial filings, DRHP, NCLT court records, and Vahan registration data.*
 
-
+---
 ## Ather Energy Ltd. — Sample Profile Assessment
 **Evaluation Date:** July 2026 | **Evaluator:** Google AI (Gemini) cross-referenced against Ather Energy FY26 filings, corporate disclosures, and supply chain records
 
@@ -181,7 +181,7 @@ No factual inaccuracies identified. All claims were verifiable against public da
 ---
 
 *Evaluated using RAGAS framework metrics and standard Information Retrieval confusion matrix against verified ground truth from Ather Energy FY26 financials, IPO disclosures, and supply chain intelligence from public corporate filings.*
-
+---
 ## Stellantis India (Private) — Sample Profile Assessment
 **Evaluation Date:** July 2026 | **Evaluator:** Google AI (Gemini) cross-referenced against Stellantis NV global filings, India unit disclosures, and automotive industry records
 
